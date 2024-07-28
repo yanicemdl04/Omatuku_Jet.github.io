@@ -6,7 +6,7 @@
   <title>Omatuku Jet</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/bootstrap.min.css" rel="stylesheet">
     <link href="https : //fonts.googleapis.com/css2?family= Quicksand :wght@300 & display=swap" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 
@@ -25,9 +25,10 @@
 <body>
 
       
-  <nav class="navbar navbar-expand-lg bg-body-tertiary rounded" aria-label="Thirteenth navbar example">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary rounded" aria-label="Thirteenth navbar example" id="nav">
     <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample11" aria-controls="navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
+      <h2>Omataku Jets</h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample11" aria-controls="navbarsExample11" aria-expanded="false" aria-label="Toggle navigation" style="background-color:gray;">
         <span class="navbar-toggler-icon"></span>
       </button>
 
@@ -97,7 +98,7 @@
     <div class="container">
 
         <div class="row" id="cartes" style="margin-top: 30px;">
-          <div class="col-md-7">
+          <div class="col-md-7" id="av1">
             <img src="images/avion3.jpg"/>
           </div>
           <div class="col-md-5">
@@ -118,13 +119,13 @@
             </p>
             <button class="custom-btn btn-2">Read More</button>
           </div>
-          <div class="col-md-7">
+          <div class="col-md-7"  id="av2">
             <img src="https://irp.cdn-website.com/9aa7a8bc/dms3rep/multi/mobile/Design-sans-titre--286-29.png"/>
           </div>
 
 
           <div class="row" id="cartes">
-            <div class="col-md-8">
+            <div class="col-md-8"  id="av3">
               <img src="https://irp.cdn-website.com/9aa7a8bc/dms3rep/multi/mobile/Design-sans-titre--287-29.png"/>
             </div>
             <div class="col-md-4" style="margin-top: 30px;">
@@ -146,7 +147,7 @@
           </p>
           <button class="custom-btn btn-2">Read More</button>
         </div>
-        <div class="col-md-8">
+        <div class="col-md-8"  id="av4">
           <img src="https://irp.cdn-website.com/9aa7a8bc/dms3rep/multi/mobile/Design-sans-titre--288-29.png"/>
         </div>
 
@@ -178,7 +179,7 @@
     </div>
   </section>
 
-  <section>
+  <section id="proverbes">
     <div class="container">
       <div class="row">
         <div id="title_last">
@@ -251,6 +252,10 @@
         </div>
     </footer>
 </div>
+
+
+<script src="assets/bootstrap.bundle.js"></script>
+<script src="assets/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
