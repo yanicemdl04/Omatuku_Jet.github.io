@@ -29,22 +29,21 @@
       font-size: 2em;
     }
 
-    #cartes #av1{
-        margin-top:-20px;
-        margin-bottom:-20px;
+    #cartes #av1 img{
+        margin-top:20px;
     }
 
-    #cartes #av2{
-        margin-top:-20px;
+    #cartes #av2 img{
+        margin-top:20px;
     }
 
-    #cartes #av3{
-        margin-bottom:-20px;
+    #cartes #av3 img{
+        display:none;
     }
 
-    #cartes #av4{
-        margin-top:-10px;
-        margin-bottom:20px;
+    #cartes #av4 img{
+        margin-top: 30px;
+        margin-bottom:30px;
     }
 
     #proverbes img{
@@ -64,15 +63,12 @@
     }
 
     #images #img1{
-        width: 50%;
+        width: 40%;
     }
     
   }
   
   @media (max-width: 992px) {
-    header {
-      height: 720px;
-    }
 
     #heading h1{
         font-size: 2em;
@@ -94,22 +90,21 @@
       font-size: 0.9em;
     }
 
-    #cartes #av1{
-        margin-top:-20px;
-        margin-bottom:-20px;
+    #cartes #av1 img{
+        margin-top:20px;
     }
 
-    #cartes #av2{
-        margin-top:-20px;
+    #cartes #av2 img{
+        margin-top:20px;
     }
 
-    #cartes #av3{
-        margin-bottom:-20px;
+    #cartes #av3 img{
+        display:none;
     }
 
-    #cartes #av4{
-        margin-top:-10px;
-        margin-bottom:20px;
+    #cartes #av4 img{
+        margin-top: 30px;
+        margin-bottom:30px;
     }
   
     #cartes img {
@@ -161,14 +156,11 @@
     }
 
     #images #img1{
-        width: 50%;
+        width: 40%;
     }
   }
   
   @media (max-width: 768px) {
-    header {
-      height: 620px;
-    }
 
     #heading h1{
         font-size: 2em;
@@ -202,22 +194,22 @@
       height: 250px;
     }
 
-    #cartes #av1{
-        margin-top:-20px;
-        margin-bottom:-20px;
+    #cartes #av1 img{
+        margin-top:20px;
     }
 
-    #cartes #av2{
-        margin-top:-20px;
+    #cartes #av2 img{
+        margin-top:20px;
     }
 
-    #cartes #av3{
-        margin-bottom:-20px;
+    #cartes #av3 img{
+        display:none;
+
     }
 
-    #cartes #av4{
-        margin-top:-10px;
-        margin-bottom:20px;
+    #cartes #av4 img{
+        margin-top: 30px;
+        margin-bottom:30px;
     }
   
   
@@ -265,14 +257,11 @@
     }
 
     #images #img1{
-        width: 50%;
+        width: 40%;
     }
   }
   
   @media (max-width: 576px) {
-    header {
-      height: 520px;
-    }
 
     #heading h1{
         font-size: 2em;
@@ -299,6 +288,25 @@
     #cartes img{
         margin-top:-20px;
     }
+
+    #cartes #av1 img{
+        margin-top:20px;
+    }
+
+    #cartes #av2 img{
+        margin-top:20px;
+    }
+
+    #cartes #av3 img{
+        display:none;
+
+    }
+
+    #cartes #av4 img{
+        margin-top: 30px;
+        margin-bottom:30px;
+    }
+  
   
     #cartes h1 {
       font-size: 1.5em;
@@ -344,6 +352,6 @@
 }
 
 #images #img1{
-    width: 50%;
+    width: 40%;
 }
   }
