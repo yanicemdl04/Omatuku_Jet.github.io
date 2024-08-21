@@ -1,0 +1,357 @@
+/* Responsive Design */
+@media (max-width: 1200px) {
+    #presentation h1 {
+      font-size: 3.5em;
+    }
+
+    #heading h1{
+        font-size: 2em;
+    }
+
+    #nav h2{
+        display:flex;
+    }
+
+    #heading p{
+        font-size: 1em;
+    }
+
+    #cartes img {
+        margin-top:-20px;
+      height: 350px;
+    }
+  
+    #cartes h1 {
+      font-size: 2.5em;
+    }
+  
+    #cartes h2 {
+      font-size: 2em;
+    }
+
+    #cartes #av1 img{
+        margin-top:20px;
+    }
+
+    #cartes #av2 img{
+        margin-top:20px;
+    }
+
+    #cartes #av3 img{
+        display:none;
+    }
+
+    #cartes #av4 img{
+        margin-top: 30px;
+        margin-bottom:30px;
+    }
+
+    #proverbes img{
+        margin-left: 40%;
+      }
+
+      #proverbes #icone img{
+        margin-left: 37%;
+      }
+    
+      #proverbes #icone h2{
+        margin-bottom: 20px;
+      }
+
+    #images #img2{
+        display: none;
+    }
+
+    #images #img1{
+        width: 40%;
+    }
+    
+  }
+  
+  @media (max-width: 992px) {
+
+    #heading h1{
+        font-size: 2em;
+    }
+
+    #nav h2{
+        display:flex;
+    }
+
+    #heading p{
+        font-size: 1em;
+    }
+  
+    #presentation h1 {
+      font-size: 3em;
+    }
+  
+    #presentation p {
+      font-size: 0.9em;
+    }
+
+    #cartes #av1 img{
+        margin-top:20px;
+    }
+
+    #cartes #av2 img{
+        margin-top:20px;
+    }
+
+    #cartes #av3 img{
+        display:none;
+    }
+
+    #cartes #av4 img{
+        margin-top: 30px;
+        margin-bottom:30px;
+    }
+  
+    #cartes img {
+        margin-top:-20px;
+      height: 300px;
+    }
+  
+    #cartes h1 {
+      font-size: 2em;
+    }
+  
+    #cartes h2 {
+      font-size: 1.8em;
+    }
+  
+    .custom-btn {
+      width: 110px;
+      height: 35px;
+      padding: 8px 20px;
+      font-size: 13px;
+    }
+  
+    #jumbotron h1 {
+      font-size: 3em;
+    }
+  
+    #title_last h1 {
+      font-size: 3em;
+    }
+  
+    #citations img {
+      height: 60px;
+    }
+
+    #proverbes #icone img{
+        margin-left: 37%;
+      }
+    
+      #proverbes #icone h2{
+        margin-bottom: 20px;
+      }
+
+    #proverbes img{
+        margin-left: 40%;
+      }
+
+    #images #img2{
+        display: none;
+    }
+
+    #images #img1{
+        width: 40%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+
+    #heading h1{
+        font-size: 2em;
+    }
+
+    #nav h2{
+        display:flex;
+    }
+
+    #heading p{
+        font-size: 1em;
+    }
+  
+    .navbar {
+      height: auto;
+      padding: 10px 0;
+    }
+  
+    #presentation h1 {
+      font-size: 2.5em;
+      margin-top: 50px;
+    }
+  
+    #presentation p {
+      font-size: 0.8em;
+    }
+
+  
+    #cartes img {
+        margin-top:-20px;
+      height: 250px;
+    }
+
+    #cartes #av1 img{
+        margin-top:20px;
+    }
+
+    #cartes #av2 img{
+        margin-top:20px;
+    }
+
+    #cartes #av3 img{
+        display:none;
+
+    }
+
+    #cartes #av4 img{
+        margin-top: 30px;
+        margin-bottom:30px;
+    }
+  
+  
+    #cartes h1 {
+      font-size: 1.8em;
+    }
+  
+    #cartes h2 {
+      font-size: 1.5em;
+    }
+  
+    .custom-btn {
+      width: 100px;
+      height: 30px;
+      padding: 5px 15px;
+      font-size: 12px;
+    }
+  
+    #jumbotron h1 {
+      font-size: 2.5em;
+    }
+  
+    #title_last h1 {
+      font-size: 2.5em;
+    }
+  
+    #citations img {
+      height: 50px;
+    }
+
+    #proverbes img{
+        margin-left: 40%;
+      }
+
+      #proverbes #icone img{
+        margin-left: 37%;
+      }
+    
+      #proverbes #icone h2{
+        margin-bottom: 20px;
+      }
+
+    #images #img2{
+        display: none;
+    }
+
+    #images #img1{
+        width: 40%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+
+    #heading h1{
+        font-size: 2em;
+    }
+
+
+    #heading p{
+        font-size: 1em;
+    }
+  
+    #presentation h1 {
+      font-size: 2em;
+      margin-top: 30px;
+    }
+  
+    #presentation p {
+      font-size: 0.7em;
+    }
+  
+    #cartes img {
+      height: 200px;
+    }
+
+    #cartes img{
+        margin-top:-20px;
+    }
+
+    #cartes #av1 img{
+        margin-top:20px;
+    }
+
+    #cartes #av2 img{
+        margin-top:20px;
+    }
+
+    #cartes #av3 img{
+        display:none;
+
+    }
+
+    #cartes #av4 img{
+        margin-top: 30px;
+        margin-bottom:30px;
+    }
+  
+  
+    #cartes h1 {
+      font-size: 1.5em;
+    }
+  
+    #cartes h2 {
+      font-size: 1.2 em;
+  }
+  
+  .custom-btn {
+  width: 90px;
+  height: 25px;
+  padding: 5px 10px;
+  font-size: 10px;
+  }
+  
+  #jumbotron h1 {
+  font-size: 2em;
+  }
+
+  #title_last h1 {
+  font-size: 2em;
+  }
+  
+  #citations img {
+  height: 40px;
+  }
+
+  #proverbes img{
+    margin-left: 40%;
+  }
+
+  #proverbes #icone img{
+    margin-left: 37%;
+  }
+
+  #proverbes #icone h2{
+    margin-bottom: 20px;
+  }
+
+#images #img2{
+    display: none;
+}
+
+#images #img1{
+    width: 40%;
+}
+  }

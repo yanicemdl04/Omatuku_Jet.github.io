@@ -1,0 +1,86 @@
+.navbar {
+    background-color: black;
+    height: 120px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  
+  .navabar a{
+    color: white;
+  }
+  
+  .navabar a:hover{
+    text-decoration: underline;
+  }
+  
+  .navbar a img{
+    height: 80px;
+  }
+  
+  .navabar a img:hover{
+    opacity: 0.6;
+    transform: scale(1.05);
+    transition: 0.6s ease-in-out;
+  }
+
+  
+  #bkg{
+    background: url('https://irp.cdn-website.com/md/dmtmpl/f3744e48-0dcf-45c2-8f56-f828fa68d2b6/dms3rep/multi/mobile/Office.png'); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    height: 750px; 
+    background-attachment: fixed; 
+  }
+
+  #bkg3{
+    background: url('../images/cargo.png'); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    height: 700px; 
+    background-attachment: fixed; 
+  }
+
+  #presentation h1{
+    font-size: 3em;
+  }
+
+  #presentation p{
+    font-size: 1.5em;
+  }
+
+
+  section .bordure{
+    background: url('../images/avion7.jpg');
+    height: 499px;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 50px;
+  }
+
+  section .bordure .window{
+    margin-top: 100px;
+    align-items: center; 
+    text-align: center;
+    padding: 30px 20px;
+    background-color: white;
+
+  }
+
+  section .bordure .window h2{
+    font-family: "Alice", serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 2.5em;
+  }
+
+  section .bordure .window p{
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1em;
+  }
+
+
+  
+  
