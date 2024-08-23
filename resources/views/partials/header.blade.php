@@ -1,28 +1,74 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary" aria-label="Twelfth navbar example" id="header">
+  <div class="container-fluid">
 
-
-<nav class="navbar navbar-expand-lg bg-body-tertiary rounded" aria-label="Thirteenth navbar example" id="nav">
-    <div class="container-fluid">
-      <h2>Omataku Jets</h2>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample11" aria-controls="navbarsExample11" aria-expanded="false" aria-label="Toggle navigation" style="background-color:gray;">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse d-lg-flex" id="navbarsExample11">
-        <a class="navbar-brand col-lg-3 me-0" href="#"><img src="https://irp.cdn-website.com/9aa7a8bc/dms3rep/multi/noBgColor.png"></a>
-        <ul class="navbar-nav col-lg-6 justify-content-lg-center">
-          <li class="nav-item">
-            <a class="nav-link active" href="{{ route('index') }}" style="color: white;">Accueil  <strong style="font-weight: bolder;">|</strong></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{ route('service') }}" style="color: white;">Nos services  <strong style="font-weight: bolder;">|</strong></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{ route('propos') }}" style="color: white;">A propos  <strong style="font-weight: bolder;">|</strong></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" style="color: white;">Contact</a>
-          </li>
-        </ul>
-      </div>
+    <div class="logo">
+      <a href="{{ route('index') }}">
+        <img src="images/logo2.png" style="height: 150px; width: 180px;">
+      </a>
     </div>
-  </nav>
+
+    <div class="menu" id="menu">
+    <div class="ferme"><a href="#" onclick="closeMenu()" id="logs"><img src="images/fermer.png"></a></div>
+    <a href="{{ route('index') }}" id="logos"><img src="images/logo2.png" style="height: 180px; width: 200px;"></a>
+
+      <ul>
+        <li class="ferme"><a href="#" onclick="closeMenu()">FERMER</a></li>
+        <li><a href="{{ route('index') }}">ACCUEIL</a></li>
+
+        <li><a href="{{ route('propos2') }}">A propos</a></li>
+        <li><a href="{{ route('service') }}">Services</a></li>
+        <li><a href="{{ route('contact') }}"><div class="button" style="border-radius: 17px; background-color:#073766; padding:14px 75px; color:white; margin-top:10px; margin-bottom:30px;">Contact</div></a></li>
+      </ul>
+    </div>
+
+    <!-- Menu responsive -->
+    <div class="toggle_menu">
+      <img src="images/menu_h.png" height="35px" width="35px" alt="menu hamburger">
+    </div>
+
+    <script>
+      // Script pour fermer le menu
+      function closeMenu() {
+        const navbarDropdown = document.querySelector(".menu");
+        navbarDropdown.classList.toggle('mobile-menu');
+      }
+
+      // Script pour ouvrir/fermer le menu responsive
+      const menu = document.querySelector(".toggle_menu");
+      const navlinks = document.querySelector(".menu");
+
+      menu.addEventListener('click', () => {
+        navlinks.classList.toggle('mobile-menu');
+      });
+
+// Script pour changer la couleur du header en fonction du scroll
+window.addEventListener('scroll', function() {
+    var scrollPosition = window.pageYOffset;
+    var changeColorElement = document.getElementById('header');
+
+    // Change la couleur de fond en fonction de la position de défilement
+    if (scrollPosition < 300) {
+        changeColorElement.style.backgroundImage = "linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 128, 255, 0))";
+        changeColorElement.style.backgroundColor = "transparent"; // Réinitialise la couleur de fond unie à transparent
+    } else {
+        changeColorElement.style.backgroundImage = "none";
+        changeColorElement.style.backgroundColor = "white"; // Applique la couleur de fond blanche
+    }
+});
+
+// Script pour réinitialiser la couleur du header lorsque la page est chargée (utile pour les autres pages)
+window.addEventListener('load', function() {
+    var changeColorElement = document.getElementById('header');
+
+    if (window.pageYOffset < 300) {
+        changeColorElement.style.backgroundImage = "linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 128, 255, 0))";
+        changeColorElement.style.backgroundColor = "transparent"; // Réinitialise la couleur de fond unie à transparent
+    } else {
+        changeColorElement.style.backgroundImage = "none";
+        changeColorElement.style.backgroundColor = "white"; // Applique la couleur de fond blanche
+    }
+});
+    </script>
+
+  </div> <!-- Fermeture de container-fluid -->
+</nav> <!-- Fermeture du nav -->

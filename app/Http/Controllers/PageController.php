@@ -16,6 +16,12 @@ class PageController extends Controller
         return view('propos');
     }
 
+    public function propos2()
+    {
+        return view('propos2');
+    }
+
+
     public function service()
     {
         return view('service');
@@ -39,5 +45,10 @@ class PageController extends Controller
     public function agence()
     {
         return view('agence');
+    }
+
+    public function contact()
+    {
+        return view('contact');
     }
 }

@@ -87,7 +87,7 @@
             de l'atterrissage sur des pistes privées, vous permettant d'accéder à des destinations exclusives. 
             Notre équipe dédiée s'assure que chaque détail de votre voyage soit parfaitement orchestré, 
             des services personnalisés à bord aux transferts VIP à votre arrivée. Avec Omatuku Jet.</p>
-            <button class="custom-btn btn-2">Read More</button>
+            <a href="{{ route('jet') }}"><button class="custom-btn btn-2">Read More</button></a>
           </div>
 
 

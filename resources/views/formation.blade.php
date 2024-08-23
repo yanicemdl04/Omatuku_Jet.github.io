@@ -38,7 +38,7 @@
         <div class="container-fluid" id="top">
             <div class="row  justify-content-center align-items-center d-flex text-center h-100">
             <div class="col-12 col-md-8  h-50 " style="margin-top: 120px;">
-                <h1 class="display-2  text-light mb-2 mt-5" id="reussir"><strong><span><span style=" color:white ;">Ride with us through the sky.</span></span></h1>
+                <h1 class="display-2  text-light mb-2 mt-5" id="reussir"><strong><span><span style=" color:white ;">Formation</span></span></h1>
             </div>
             
             </div>
@@ -47,6 +47,25 @@
 
   </header>
 
+  <section>
+    <div class="container">
+      <div class="row">
+        <div id="presentation">
+          <h2>En savoir plus</h2>
+          <p>Nous assurons également la
+            formation complète des
+            équipages de cabine pour
+            garantir des standards de
+            sécurité et de service
+            irréprochables.
+          </p>
+        </div>
+
+        <div class="col-6 col-md-12" id="forms">
+          <img src="images/formation1.png">
+      </div>
+    </div>
+  </section>
   
   <!-- Page section example for content below the video header -->
   

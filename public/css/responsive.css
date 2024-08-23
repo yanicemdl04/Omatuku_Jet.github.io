@@ -1,357 +1,107 @@
-/* Responsive Design */
-@media (max-width: 1200px) {
-    #presentation h1 {
-      font-size: 3.5em;
-    }
+@media (max-width: 992px) {
 
-    #heading h1{
-        font-size: 2em;
-    }
-
-    #nav h2{
-        display:flex;
-    }
-
-    #heading p{
-        font-size: 1em;
-    }
-
-    #cartes img {
-        margin-top:-20px;
-      height: 350px;
-    }
-  
-    #cartes h1 {
-      font-size: 2.5em;
-    }
-  
-    #cartes h2 {
-      font-size: 2em;
-    }
-
-    #cartes #av1 img{
-        margin-top:20px;
-    }
-
-    #cartes #av2 img{
-        margin-top:20px;
-    }
-
-    #cartes #av3 img{
-        display:none;
-    }
-
-    #cartes #av4 img{
-        margin-top: 30px;
-        margin-bottom:30px;
-    }
-
-    #proverbes img{
-        margin-left: 40%;
-      }
-
-      #proverbes #icone img{
-        margin-left: 37%;
-      }
-    
-      #proverbes #icone h2{
-        margin-bottom: 20px;
-      }
-
-    #images #img2{
-        display: none;
-    }
-
-    #images #img1{
-        width: 40%;
-    }
-    
+  #heading h1 {
+      font-size: 2rem;
   }
-  
-  @media (max-width: 992px) {
 
-    #heading h1{
-        font-size: 2em;
-    }
-
-    #nav h2{
-        display:flex;
-    }
-
-    #heading p{
-        font-size: 1em;
-    }
-  
-    #presentation h1 {
-      font-size: 3em;
-    }
-  
-    #presentation p {
-      font-size: 0.9em;
-    }
-
-    #cartes #av1 img{
-        margin-top:20px;
-    }
-
-    #cartes #av2 img{
-        margin-top:20px;
-    }
-
-    #cartes #av3 img{
-        display:none;
-    }
-
-    #cartes #av4 img{
-        margin-top: 30px;
-        margin-bottom:30px;
-    }
-  
-    #cartes img {
-        margin-top:-20px;
-      height: 300px;
-    }
-  
-    #cartes h1 {
-      font-size: 2em;
-    }
-  
-    #cartes h2 {
-      font-size: 1.8em;
-    }
-  
-    .custom-btn {
-      width: 110px;
-      height: 35px;
-      padding: 8px 20px;
-      font-size: 13px;
-    }
-  
-    #jumbotron h1 {
-      font-size: 3em;
-    }
-  
-    #title_last h1 {
-      font-size: 3em;
-    }
-  
-    #citations img {
-      height: 60px;
-    }
-
-    #proverbes #icone img{
-        margin-left: 37%;
-      }
-    
-      #proverbes #icone h2{
-        margin-bottom: 20px;
-      }
-
-    #proverbes img{
-        margin-left: 40%;
-      }
-
-    #images #img2{
-        display: none;
-    }
-
-    #images #img1{
-        width: 40%;
-    }
+  #heading p {
+      font-size: 1rem;
   }
-  
-  @media (max-width: 768px) {
 
-    #heading h1{
-        font-size: 2em;
-    }
+  section #presentation h1 {
+      font-size: 1.8rem;
+  }
 
-    #nav h2{
-        display:flex;
-    }
+  section #presentation p {
+      font-size: 1rem;
+  }
 
-    #heading p{
-        font-size: 1em;
-    }
-  
-    .navbar {
+  header{
+    display: flex;
+  }
+
+  nav .menu {
+    width: 100%;
+
+  }
+
+  #cartes #av1 img, 
+  #cartes #av2 img, 
+  #cartes #av4 img {
+      margin: 20px 0;
       height: auto;
-      padding: 10px 0;
-    }
-  
-    #presentation h1 {
-      font-size: 2.5em;
-      margin-top: 50px;
-    }
-  
-    #presentation p {
-      font-size: 0.8em;
-    }
-
-  
-    #cartes img {
-        margin-top:-20px;
-      height: 250px;
-    }
-
-    #cartes #av1 img{
-        margin-top:20px;
-    }
-
-    #cartes #av2 img{
-        margin-top:20px;
-    }
-
-    #cartes #av3 img{
-        display:none;
-
-    }
-
-    #cartes #av4 img{
-        margin-top: 30px;
-        margin-bottom:30px;
-    }
-  
-  
-    #cartes h1 {
-      font-size: 1.8em;
-    }
-  
-    #cartes h2 {
-      font-size: 1.5em;
-    }
-  
-    .custom-btn {
-      width: 100px;
-      height: 30px;
-      padding: 5px 15px;
-      font-size: 12px;
-    }
-  
-    #jumbotron h1 {
-      font-size: 2.5em;
-    }
-  
-    #title_last h1 {
-      font-size: 2.5em;
-    }
-  
-    #citations img {
-      height: 50px;
-    }
-
-    #proverbes img{
-        margin-left: 40%;
-      }
-
-      #proverbes #icone img{
-        margin-left: 37%;
-      }
-    
-      #proverbes #icone h2{
-        margin-bottom: 20px;
-      }
-
-    #images #img2{
-        display: none;
-    }
-
-    #images #img1{
-        width: 40%;
-    }
   }
-  
-  @media (max-width: 576px) {
 
-    #heading h1{
-        font-size: 2em;
-    }
-
-
-    #heading p{
-        font-size: 1em;
-    }
-  
-    #presentation h1 {
-      font-size: 2em;
-      margin-top: 30px;
-    }
-  
-    #presentation p {
-      font-size: 0.7em;
-    }
-  
-    #cartes img {
-      height: 200px;
-    }
-
-    #cartes img{
-        margin-top:-20px;
-    }
-
-    #cartes #av1 img{
-        margin-top:20px;
-    }
-
-    #cartes #av2 img{
-        margin-top:20px;
-    }
-
-    #cartes #av3 img{
-        display:none;
-
-    }
-
-    #cartes #av4 img{
-        margin-top: 30px;
-        margin-bottom:30px;
-    }
-  
-  
-    #cartes h1 {
-      font-size: 1.5em;
-    }
-  
-    #cartes h2 {
-      font-size: 1.2 em;
+  #cartes #av3 img {
+    margin: 20px 0;
+    height: auto;
   }
-  
+
+  #cartes h1 {
+      font-size: 2rem;
+  }
+
+  #cartes h2 {
+      font-size: 1.5rem;
+  }
+
   .custom-btn {
-  width: 90px;
-  height: 25px;
-  padding: 5px 10px;
-  font-size: 10px;
-  }
-  
-  #jumbotron h1 {
-  font-size: 2em;
+      width: 120px;
+      height: 40px;
+      padding: 10px 25px;
+      font-size: 14px;
   }
 
-  #title_last h1 {
-  font-size: 2em;
+  section #jumbotron h1, 
+  section #title_last h1 {
+      font-size: 2.5rem;
+      text-align: center;
   }
-  
+
   #citations img {
-  height: 40px;
+      height: 70px;
   }
 
-  #proverbes img{
-    margin-left: 40%;
+  section #icone img {
+      margin: 0 auto;
+      display: block;
   }
 
-  #proverbes #icone img{
-    margin-left: 37%;
+  #proverbes img {
+      margin: 0 auto;
+      display: block;
   }
 
-  #proverbes #icone h2{
-    margin-bottom: 20px;
+  #proverbes #icone h2 {
+      margin-bottom: 20px;
+      text-align: center;
   }
 
-#images #img2{
-    display: none;
+  #images #img2 {
+      display: none;
+  }
+
+  #images #img1 {
+      height: 40%;
+      margin: 0 auto;
+  }
+  header .container, 
+  section .container {
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+
+  #cartes {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  section #jumbotron button{
+    margin-left: 30%;
+  }
+
+  #cartes img {
+      margin: 0 auto;
+      max-width: 100%;
+  }
 }
-
-#images #img1{
-    width: 40%;
-}
-  }

@@ -31,21 +31,76 @@
 <body>
 
 @section('content')
-  <header>
+<header>
                 <!-- cover -->
-    <section class="pt-5 pb-5 mt-0 align-items-center d-flex bg-dark" id="bkg1" class="page-holder bg-cover">
-    
-        <div class="container-fluid" id="top">
-            <div class="row  justify-content-center align-items-center d-flex text-center h-100">
-            <div class="col-12 col-md-8  h-50 " style="margin-top: 120px;">
-                <h1 class="display-2  text-light mb-2 mt-5" id="reussir"><strong><span><span style=" color:white ;">Ride with us through the sky.</span></span></h1>
-            </div>
-            
-            </div>
+    <section class="pt-5 pb-5 mt-0 align-items-center d-flex bg-dark" id="bkg4" class="page-holder bg-cover">
         </div>
     </section>
 
   </header>
+
+
+
+  
+  <section>
+    <div class="container">
+      <div class="row">
+        <div id="presentation">
+          <h1>Découvrez l'excellence de <br> nos services.</h1>
+          <span>____________________</span>
+          <p>Omatuku Jets offre des solutions de transport de fret rapides et fiables. Avec notre flotte moderne et <br> 
+            notre expertise logistique, nous assurons la livraison sécurisée de vos marchandises où que vous en <br>
+            ayez besoin, à tout moment.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Page section example for content below the video header -->
+  
+  <!-- Page section example for content below the video header -->
+  <section class="my-5" id="boutonn">
+    <div class="container">
+
+        <div class="row" id="cartes">
+          <div class="col-md-4">
+            <img src="../images/turbo.png"/>
+            <button class="custom-btn btn-2">Reservation</button>
+
+          </div>
+          <div class="col-md-8" id="jetp">
+            <img src="../images/turbo1.png"/>
+            <button class="custom-btn btn-2">Reservation</button>
+          </div>
+
+
+          <div class="col-md-4">
+            <img src="../images/turbo2.png"/>
+            <button class="custom-btn btn-2">Reservation</button>
+          </div>
+          <div class="col-md-8" id="jetp">
+            <img src="../images/turbo3.png"/>
+            <button class="custom-btn btn-2">Reservation</button>
+          </div>
+
+
+          <div class="col-md-4">
+            <img src="../images/turbo4.png"/>
+            <button class="custom-btn btn-2">Reservation</button>
+
+          </div>
+          <div class="col-md-8" id="jetp">
+            <img src="../images/turbo5.png"/>
+            <button class="custom-btn btn-2">Reservation</button>
+          </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section style="text-align: center; justify-content: center; display: flex; align-items: center; font-size: 2em; margin-bottom: 30px;">
+    <a href="../images/OmatukuJetsCatalogue.pdf">Voir plus</a>
+  </section>
+
 
   
   <!-- Page section example for content below the video header -->

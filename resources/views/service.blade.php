@@ -98,46 +98,44 @@
 
   <section>
     <div class="container">
-        <div class="row" id="partenaires">
+        <div id="partenaires">
             <div id="titles">
                 <h1>Our clients</h1>
             </div>
-
-            <div class="col-md-3">
-                <img src="https://irp.cdn-website.com/md/dmtmpl/f3744e48-0dcf-45c2-8f56-f828fa68d2b6/dms3rep/multi/thumbnail/CNN-logo.svg">
-            </div>
-
-            <div class="col-md-3">
-                <img src="https://irp.cdn-website.com/md/dmtmpl/f3744e48-0dcf-45c2-8f56-f828fa68d2b6/dms3rep/multi/mobile/Conan.svg">
-            </div>
-
-            <div class="col-md-3">
-                <img src="https://irp.cdn-website.com/md/dmtmpl/f3744e48-0dcf-45c2-8f56-f828fa68d2b6/dms3rep/multi/mobile/Spotify-logo.svg">
-            </div>
-
-            <div class="col-md-3">
-                <img src="https://irp.cdn-website.com/md/dmtmpl/f3744e48-0dcf-45c2-8f56-f828fa68d2b6/dms3rep/multi/mobile/Slack-logo.svg">
+            <div class="row row-cols-2 row-cols-md-4 align-items-stretch">
+                <div class="col-6 col-md-3">
+                    <img src="https://irp.cdn-website.com/md/dmtmpl/f3744e48-0dcf-45c2-8f56-f828fa68d2b6/dms3rep/multi/thumbnail/CNN-logo.svg">
+                </div>
+                <div class="col-6 col-md-3">
+                    <img src="https://irp.cdn-website.com/md/dmtmpl/f3744e48-0dcf-45c2-8f56-f828fa68d2b6/dms3rep/multi/mobile/Conan.svg">
+                </div>
+                <div class="col-6 col-md-3">
+                    <img src="https://irp.cdn-website.com/md/dmtmpl/f3744e48-0dcf-45c2-8f56-f828fa68d2b6/dms3rep/multi/mobile/Spotify-logo.svg">
+                </div>
+                <div class="col-6 col-md-3">
+                    <img src="https://irp.cdn-website.com/md/dmtmpl/f3744e48-0dcf-45c2-8f56-f828fa68d2b6/dms3rep/multi/mobile/Slack-logo.svg">
+                </div>
             </div>
         </div>
     </div>
-  </section>
+</section>
 
-  <section>
-    <div class="container">
-        <div class="row">
-            <div class="row" id="black">
+<section>
+    <div class="container-fluid black-bg">
+        <div class="container">
+            <div class="row">
                 <div class="col-md-5" style="margin-top: 100px; margin-bottom: 100px;">
                     <h1>Interested in our services? <br> We’re here to help!</h1>
                 </div>
                 <div class="col-md-5" style="margin-top: 100px;">
                     <p>We want to know your needs exactly so that we can provide the perfect solution. 
                         Let us know what you want and we’ll do our best to help.</p>
-                        <button class="custom-btn btn-2" style="width: 250px ;">Book an appointment</button>
+                        <button class="custom-btn btn-2" style="width: 250px;">Book an appointment</button>
                 </div>
             </div>
         </div>
     </div>
-  </section>
+</section>
 
 
 

@@ -55,8 +55,8 @@
     <div class="container">
       <div class="row">
         <div id="presentation">
-          <h1>  Our aviation services center on safety, responsible flight, and comfort.  </h1>
-          <p>  Our aviation services center on safety, responsible flight, and comfort.  </p>
+          <h2>Nos services d’aviation sont axés sur la sécurité, le vol responsable et le confort. </h2>
+          <p>Nos services d’aviation sont axés sur la sécurité, le vol responsable et le confort.</p>
         </div>
       </div>
     </div>
@@ -70,7 +70,7 @@
           <div class="window">
             <h2>La sécurité aérienne <br> est importante.</h2>
             <p>os services d’aviation sont axés sur la sécurité, le vol responsable et le confort.</p>
-            <button class="custom-btn btn-2">Read More</button>
+            <a href="{{ route('propos2') }}"><button class="custom-btn btn-2">En savoir</button></a>
           </div>
         </div>
       </div>
