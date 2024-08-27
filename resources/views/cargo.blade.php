@@ -70,7 +70,7 @@
                 efficace des cargaisons variées, tout en garantissant une performance optimale. Sa conception
                 robuste permet une adaptation facile à différents types de fret, répondant ainsi aux besoins
                 diversifiés du secteur cargo</p>
-            <button class="custom-btn btn-2">Reservation</button>
+                <a href="{{ route('contact.store') }}"><button class="custom-btn btn-2">Reservation</button></a>
           </div>
 
 
@@ -81,7 +81,7 @@
                 offrant une solution idéale pour le transport de grandes quantités de marchandises. Cet appareil
                 allie une capacité de chargement exceptionnelle à une performance fiable, assurant une efficacité
                 accrue pour les opérations cargo sur de longues distances            </p>
-            <button class="custom-btn btn-2">Reservation</button>
+                <a href="{{ route('contact.store') }}"><button class="custom-btn btn-2">Reservation</button></a>
           </div>
           <div class="col-md-7">
             <img src="../images/cargo2.png"/>
@@ -102,8 +102,8 @@
                 solution efficace et fiable pour les besoins du transport aérien de marchandises, que ce soit pour
                 des trajets régionaux ou plus étendus.
               </p>
-              <button class="custom-btn btn-2">Reservation</button>
-            </div>
+              <a href="{{ route('contact.store') }}"><button class="custom-btn btn-2">Reservation</button></a>
+              </div>
         </div>
       </div>
     </div>

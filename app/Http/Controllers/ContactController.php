@@ -8,20 +8,22 @@ use App\Models\Contact;
 
 class ContactController extends Controller
 {
-    public function store(Request $request)
+    public function showForm()
     {
-        // Validation des données
-        $validated = $request->validate([
-            'email' => 'required|email',
-            'nom' => 'required|string|max:255',
-            'prenom' => 'required|string|max:255',
-            'formule' => 'required|string|max:255',
-        ]);
-
-        // Enregistrement des données dans la base de données
-        Contact::create($validated);
-
-        // Affichage d'un message de confirmation et effacement des champs du formulaire
-        return back()->with('success', 'Formulaire soumis avec succès!');
+        return view('contact');
     }
+    
+    public function store(Request $request)
+{
+    $contact = new Contact();
+    $contact->email = $request->input('email');
+    $contact->nom = $request->input('nom');
+    $contact->prenom = $request->input('prenom');
+    $contact->numero = $request->input('numero');
+    $contact->formule = $request->input('formule');
+    $contact->save();
+
+    return redirect()->back()->with('success', 'Vous recevrez un email pour plus d\'information!');
+}
+
 }

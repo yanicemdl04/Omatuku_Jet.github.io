@@ -34,6 +34,14 @@
 <header>
                 <!-- cover -->
     <section class="pt-5 pb-5 mt-0 align-items-center d-flex bg-dark" id="bkg4" class="page-holder bg-cover">
+    
+        <div class="container-fluid" id="top">
+            <div class="row  justify-content-center align-items-center d-flex text-center h-100">
+            <div class="col-12 col-md-8  h-50 " style="margin-top: 120px;">
+                <h1 class="display-2  text-light mb-2 mt-5" id="reussir"><strong><span><span style=" color:white ; font-weight:bold;">TURBO JET</span></span></h1>
+            </div>
+            
+            </div>
         </div>
     </section>
 
@@ -75,22 +83,22 @@
 
           <div class="col-md-4">
             <img src="../images/turbo2.png"/>
-            <button class="custom-btn btn-2">Reservation</button>
+            <button class="custom-btn btn-2">Contacter</button>
           </div>
           <div class="col-md-8" id="jetp">
             <img src="../images/turbo3.png"/>
-            <button class="custom-btn btn-2">Reservation</button>
+            <button class="custom-btn btn-2">Contacter</button>
           </div>
 
 
           <div class="col-md-4">
             <img src="../images/turbo4.png"/>
-            <button class="custom-btn btn-2">Reservation</button>
+            <button class="custom-btn btn-2">Contacter</button>
 
           </div>
           <div class="col-md-8" id="jetp">
             <img src="../images/turbo5.png"/>
-            <button class="custom-btn btn-2">Reservation</button>
+            <button class="custom-btn btn-2">Contacter</button>
           </div>
 
       </div>

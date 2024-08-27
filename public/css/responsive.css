@@ -20,9 +20,46 @@
     display: flex;
   }
 
-  nav .menu {
-    width: 100%;
+  .toggle_menu {
+    display: block;
+    margin-top: -20px;
+  }
 
+  nav .menu {
+    width: 100%; /* Menu prend plus de place sur mobile */
+  }
+
+  nav .menu #logos img {
+    display: none; /* Masque le logo dans le header principal en mode mobile */
+
+  }
+
+  /* Menu en mode mobile (responsive) */
+nav .menu.mobile-menu {
+    transform: translateX(100%);
+    width: 100%; /* Le menu occupe 100% de la largeur en mode responsive */
+  }
+
+
+
+body nav .icon_c img {
+    display: none;
+    background-color: transparent;
+    border: 0;
+}
+
+body nav .icon_c {
+    display: none;
+    border: 0;
+    background-color: transparent;
+}
+
+nav .whatsapp-icon {
+    margin-top: -30px;
+  }
+
+  .menu {
+    padding-top: 0;
   }
 
   #cartes #av1 img, 
@@ -104,4 +141,11 @@
       margin: 0 auto;
       max-width: 100%;
   }
+
+  section #jetp{
+    margin-top: -500px;
+  }
 }
+
+
+

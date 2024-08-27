@@ -129,7 +129,7 @@
           Chez Omatuku Jet, nous proposons des formations spécialisées en transport de fret pour vous aider à maîtriser les compétences essentielles dans ce domaine crucial. 
           Nos programmes de formation sont conçus pour répondre aux besoins des professionnels du fret aérien, en abordant des sujets tels que la réglementation internationale, 
           la gestion des risques, la logistique et la sécurité des marchandises.</p>
-          <button class="custom-btn btn-2">Read More</button>
+          <a href="{{ route('formation') }}"><button class="custom-btn btn-2">Read More</button></a>
         </div>
         <div class="col-md-8"  id="av4">
           <img src="https://irp.cdn-website.com/9aa7a8bc/dms3rep/multi/mobile/Design-sans-titre--288-29.png"/>
@@ -158,7 +158,7 @@
       <div class="cv-container" id="jumbotron">
         <h1>We fly out of Kinshasa and consider 
           <br>this our community.</h1>
-          <button class="custom-btn btn-2">Read More</button>
+          <a href="{{ route('propos') }}"> <button class="custom-btn btn-2">Read More</button></a>
       </div>
     </div>
   </section>

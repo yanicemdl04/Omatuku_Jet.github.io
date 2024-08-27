@@ -27,7 +27,12 @@
 notre expertise logistique, nous assurons la livraison sécurisée de vos marchandises où que vous en
 ayez besoin, à tout moment.</p>
                 </div>
-                <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+                <div class="col item social">
+                    <a href="#"><img src="images/facebook.png"></a>
+                    <a href="#"><img src="images/whatsapp.png"></a>
+                    <a href="#"><img src="images/linkedin.png"></a>
+                    <a href="#"><img src="images/insta.png"></a>
+                </div>
             </div>
             <p class="copyright">Yanice Mundele © 2024</p>
         </div>

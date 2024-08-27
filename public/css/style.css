@@ -48,102 +48,125 @@ header #txt{
 
 nav {
   padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 nav .toggle_menu {
   display: block;
+  cursor: pointer;
+  order: 1; /* Positionner à gauche */
 }
+
+nav .toggle_menu:hover{
+  opacity: 0.4;
+    transform: scale(1.05);
+    transition: 0.5s ease-in-out;
+}
+
+nav .whatsapp-icon {
+  margin-left: 10px;
+  order: 3; /* Positionner au centre */
+}
+
+nav .whatsapp-icon:hover{
+  opacity: 0.4;
+    transform: scale(1.05);
+    transition: 0.5s ease-in-out;
+
+}
+
+nav .logo {
+  order: 3; /* Positionner à droite */
+  display: flex;
+  align-items: center;
+}
+
+nav .icon_c {
+  position: absolute;
+  left: auto;
+  right: 50px;
+  transform: none;
+  display: flex;
+  border-radius: 100%;
+  background-color: white;
+  padding: 10px 10px;
+}
+
+nav .icon_c:hover{
+  border:white solid;
+}
+
 /* Style pour l'image logs en haut à gauche */
 nav .menu #logs img {
   height: 63px;
   width: 55px;
   border-radius: 100%;
-  margin-left: 0; /* Positionnement à gauche */
-  padding-top: 10px; /* Ajuster la position verticale */
+  margin-left: 0;
+  padding-top: 10px;
   position: absolute;
   top: 10px;
-  left: 10px; /* Positionnement à gauche */
+  left: 60px;
+}
+
+nav .menu #logs img:hover{
+  opacity: 0.4;
+  transform: scale(1.05);
+  transition: 0.5s ease-in-out;
 }
 
 /* Style pour l'image logos en haut au centre */
 nav .menu #logos img {
-  display: block; /* Centrer l'image */
-  margin: 0 auto; /* Centrer horizontalement */
+  margin: 0 auto;
   position: absolute;
-  top: 10px;
+  top: -10px;
   left: 50%;
-  transform: translateX(-50%); /* Centrer au milieu de la page */
+  transform: translateX(-50%);
 }
+
+
 
 /* Styles pour le menu */
 nav .menu {
   display: flex;
   position: absolute;
-  left: 0;
+  left: -40%;
   top: 0;
-  width: 25%;
+  width: 20%; /* Le menu occupe 25% de la largeur de l'écran */
   height: 100vh;
   flex-direction: column;
-  align-items: stretch;
+  align-items: center;
   justify-content: center;
-  color: white;
   background-color: #0e1a25;
-  padding-top: 70px;
-  transition: all 0.5s ease;
+  transition: transform 0.5s ease;
 }
 
-
-nav .mobile-menu {
-  margin-left: 0;
-  display: none;
+/* Menu en mode mobile (responsive) */
+nav .menu.mobile-menu {
+  transform: translateX(60%);
+  width: 60%; /* Le menu occupe 100% de la largeur en mode responsive */
 }
-
 
 nav .menu ul {
+  display: flex;
   flex-direction: column;
-  display: flex;
   align-items: center;
-  text-decoration: none;
-  list-style: none;
-  background-color: #0e1a25;
-}
-
-#header {
-  font-family: 'Montserrat', sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 100px;
-  padding: 0 10%;
-  position: fixed;
   width: 100%;
-  top: 0;
-  z-index: 10;
-  font-size: 2.8em;
-}
-
-nav .menu li p,
-nav .menu li a {
-  color: white;
-  font-weight: bold;
-  position: relative;
-  font-size: 1rem;
-  margin-top: 8px;
-  display: flex;
+  padding: 0;
+  list-style: none;
 }
 
 nav .menu li {
-  margin: 0 15px;
-  list-style: none;
-  text-decoration: none;
+  margin: 15px 0;
 }
 
 nav .menu li a {
-  text-decoration: none;
   color: white;
-  font-size: 1rem;
-  position: relative;
   font-weight: bold;
+  font-size: 1rem;
+  text-decoration: none;
+  position: relative;
 }
 
 nav .menu li a::before,
@@ -177,6 +200,20 @@ nav .menu li a:hover::after {
 
 nav .menu li a:hover {
   color: #1565c0;
+}
+
+#header {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 120px;
+  padding: 0 10%;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+  font-size: 2.8em;
 }
 
 #bkg{
@@ -474,7 +511,7 @@ nav .menu li a:hover {
   }
 }
 
-.footer-dark .item.social > a {
+.footer-dark .item.social a img {
   font-size:20px;
   width:36px;
   height:36px;
@@ -488,7 +525,7 @@ nav .menu li a:hover {
   opacity:0.75;
 }
 
-.footer-dark .item.social > a:hover {
+.footer-dark .item.social a img:hover {
   opacity:0.9;
 }
 
