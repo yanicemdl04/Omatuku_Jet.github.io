@@ -46,6 +46,30 @@ header #txt{
 }
 
 
+/* animation de depart */
+
+#reussir span{
+  display: inline-block;
+  overflow: hidden;
+}
+#reussir span span{
+  display: block;
+  animation: waves .9s both;
+}
+
+@keyframes waves{
+  from{
+      opacity: 0;
+      transform: translateY(100%);
+  }
+  to{
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+
+
 nav {
   padding: 0;
   display: flex;
@@ -120,10 +144,23 @@ nav .menu #logs img:hover{
 nav .menu #logos img {
   margin: 0 auto;
   position: absolute;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
   top: -10px;
   left: 50%;
   transform: translateX(-50%);
 }
+
+#heading #btn-center{
+  border-radius: 17px; 
+  background-color: #1565c0; 
+  padding:12px 60px; 
+  color:white; 
+  margin-top:10px; 
+  margin-bottom:30px;
+}
+
 
 
 
@@ -131,34 +168,35 @@ nav .menu #logos img {
 nav .menu {
   display: flex;
   position: absolute;
-  left: -40%;
+  left: -100%;
   top: 0;
-  width: 20%; /* Le menu occupe 25% de la largeur de l'écran */
+  width: 20%; /* Le menu occupe 20% de la largeur de l'écran */
   height: 100vh;
   flex-direction: column;
-  align-items: center;
+  font-weight: bolder;
+  margin-right: auto;
   justify-content: center;
-  background-color: #0e1a25;
+  background-color: #181818;
   transition: transform 0.5s ease;
 }
 
 /* Menu en mode mobile (responsive) */
 nav .menu.mobile-menu {
-  transform: translateX(60%);
-  width: 60%; /* Le menu occupe 100% de la largeur en mode responsive */
+  transform: translateX(100%);
+  width: 100%; /* Le menu occupe 100% de la largeur en mode responsive */
 }
 
 nav .menu ul {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 10px;
   width: 100%;
-  padding: 0;
   list-style: none;
 }
 
 nav .menu li {
-  margin: 15px 0;
+  margin: 7px 0;
 }
 
 nav .menu li a {
@@ -176,7 +214,7 @@ nav .menu li a::after {
   width: 0;
   height: 2px;
   border-radius: 6px;
-  background-color: #6a1b9a;
+  background-color: #004dff;
   transition: 0.5s;
 }
 
@@ -199,7 +237,8 @@ nav .menu li a:hover::after {
 }
 
 nav .menu li a:hover {
-  color: #1565c0;
+  color: rgb(238, 238, 238);
+  opacity: 0.6;
 }
 
 #header {
@@ -240,18 +279,23 @@ nav .menu li a:hover {
   text-align: center; 
 }
 
+#press{
+  background-color: #f1f1f1;
+}
+
 #presentation h1{
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   color: black;
   font-style: normal;
-  font-size: 4.5em;
+  font-size: 3.5em;
   font-weight: bold;
   margin-top: 80px;
 }
 
 #presentation p{
   margin-top: 30px;
+  margin-bottom: 60px;
   font-size: 1em;
   color: gray;
   font-family: "Noto Sans", sans-serif;
@@ -271,13 +315,6 @@ nav .menu li a:hover {
   border-radius: 20px;
 }
 
-#cartes h1{
-  margin-top: 60px;
-  font-family: "Lato", sans-serif;
-  font-weight: 100;
-  font-style: normal;
-}
-
 #cartes p{
   font-family: "Lato", sans-serif;
   font-weight: 400;
@@ -286,13 +323,19 @@ nav .menu li a:hover {
 }
 
 #cartes h2{
+  margin-top: 80px;
   font-family: "Alice", serif;
   font-weight: 400;
   font-style: normal;
   font-size: 2.5em;
 }
 
-.custom-btn {
+#cartes #av2 img{
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+
+a .custom-btn{
   width: 130px;
   height: 40px;
   color: #fff;
@@ -312,32 +355,22 @@ nav .menu li a:hover {
   font-size: 15px;
 }
 
-.btn-2 {
+a .btn-2 {
   background: #004dff;
   background: linear-gradient(0deg, #004dff 0%, #004dff 100%);
   border: none;
 }
 
-.btn-2:before {
+a .btn-2:before {
   height: 0%;
   width: 2px;
 }
 
-.btn-2:hover {
+a .btn-2:hover {
   box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5),
               -4px -4px 6px 0 rgba(116, 125, 136, .5), 
     inset -4px -4px 6px 0 rgba(255,255,255,.2),
     inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
-}
-
-#cards h1{
-  align-items: center; 
-  text-align: center; 
-  font-family: "Alice", serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 3.5em;
-  color: black;
 }
 
 #images img{
@@ -369,7 +402,7 @@ nav .menu li a:hover {
   font-family: "Alice", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 4em;
+  font-size: 2em;
 
 }
 
@@ -380,49 +413,6 @@ nav .menu li a:hover {
   margin-top: 30px;
 }
 
-#title_last h1{
-  margin-top: 30px;
-  margin-bottom: 60px;
-  align-items: center; 
-  text-align: center;
-  color: black;
-  font-family: "Alice", serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 4em;
-}
-
-#citations img{
-  height: 80px;
-  border-radius: 100%;
-  margin-bottom: 30px;
-}
-
-#citations #icone img{
-  height: 60px;
-  margin-left: 30px;
-}
-
-
-
-/* css de la page service*/
-#partenaires img{
-  height: 100px;
-  margin-top: 20px;
-  margin-bottom: 60px;
-}
-
-
-#titles h1{
-  margin-top: 30px;
-  align-items: center; 
-  text-align: center;
-  color: black;
-  font-family: "Alice", serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 4em;
-}
 
 .black-bg {
   background-color: black;

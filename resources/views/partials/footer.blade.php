@@ -22,7 +22,7 @@
                     </ul>
                 </div>
                 <div class="col-md-6 item text">
-                    <h3>OMATUKU JET</h3>
+                    <h3>OMATUKU JETS</h3>
                     <p>Omatuku Jets offre des solutions de transport de Jet rapides et fiables. Avec notre flotte moderne et
 notre expertise logistique, nous assurons la livraison sécurisée de vos marchandises où que vous en
 ayez besoin, à tout moment.</p>

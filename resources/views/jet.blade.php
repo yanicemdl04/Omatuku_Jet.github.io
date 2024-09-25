@@ -37,8 +37,10 @@
     
         <div class="container-fluid" id="top">
             <div class="row  justify-content-center align-items-center d-flex text-center h-100">
-            <div class="col-12 col-md-8  h-50 " style="margin-top: 120px;">
-                <h1 class="display-2  text-light mb-2 mt-5" id="reussir"><strong><span><span style=" color:white ; font-weight:bold;">TURBO JET</span></span></h1>
+            <div class="col-12 col-md-8  h-50 " style="margin-top: 180px;">
+                <h1 class="display-2  text-light mb-2 mt-5" id="reussir"><strong><span><span style=" color:white; font-size:0.4em; font-weight:bolder;">VOYAGER EN JET PRIVE</span></span></h1>
+                <p class="lead mb-0" id="txt" style=" color:white; font-weight:250;">Service premium |  Destination mondiale |  Service sur mesure</p>
+              
             </div>
             
             </div>
@@ -72,33 +74,33 @@
         <div class="row" id="cartes">
           <div class="col-md-4">
             <img src="../images/turbo.png"/>
-            <button class="custom-btn btn-2">Reservation</button>
+            <a href="{{ route('reservation.store') }}"><button class="custom-btn btn-2">Réserver</button></a>
 
           </div>
           <div class="col-md-8" id="jetp">
             <img src="../images/turbo1.png"/>
-            <button class="custom-btn btn-2">Reservation</button>
-          </div>
+            <a href="{{ route('reservation.store') }}"><button class="custom-btn btn-2">Réserver</button></a>
+            </div>
 
 
           <div class="col-md-4">
             <img src="../images/turbo2.png"/>
-            <button class="custom-btn btn-2">Contacter</button>
+            <a href="{{ route('reservation.store') }}"><button class="custom-btn btn-2">Réserver</button></a>
           </div>
           <div class="col-md-8" id="jetp">
             <img src="../images/turbo3.png"/>
-            <button class="custom-btn btn-2">Contacter</button>
+            <a href="{{ route('reservation.store') }}"><button class="custom-btn btn-2">Réserver</button></a>
           </div>
 
 
           <div class="col-md-4">
             <img src="../images/turbo4.png"/>
-            <button class="custom-btn btn-2">Contacter</button>
+            <a href="{{ route('reservation.store') }}"><button class="custom-btn btn-2">Réserver</button></a>
 
           </div>
           <div class="col-md-8" id="jetp">
             <img src="../images/turbo5.png"/>
-            <button class="custom-btn btn-2">Contacter</button>
+            <a href="{{ route('reservation.store') }}"><button class="custom-btn btn-2">Réserver</button></a>
           </div>
 
       </div>

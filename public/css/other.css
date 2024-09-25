@@ -1,6 +1,6 @@
 
-  #bkg{
-    background: url('https://irp.cdn-website.com/md/dmtmpl/f3744e48-0dcf-45c2-8f56-f828fa68d2b6/dms3rep/multi/mobile/Office.png'); 
+  #bkg8{
+    background: url('../images/diverse.jpg'); 
     background-repeat: no-repeat; 
     background-size: cover; 
     height: 750px; 
@@ -8,15 +8,15 @@
   }
 
   #bkg3{
-    background: url('../images/cargo.png'); 
+    background: url('../images/airplane2.jpg'); 
     background-repeat: no-repeat; 
     background-size: cover;
     height: 700px; 
-    background-attachment: fixed; 
+    background-attachment: fixed;
   }
 
   #bkg4{
-    background: url('../images/avion5.jpg'); 
+    background: url('../images/airplane.jpg'); 
     background-repeat: no-repeat; 
     background-size: cover; 
     height: 700px; 
@@ -25,12 +25,44 @@
 
 
   #bkg5{
-    background: url('../images/avion2.jpg'); 
+    background: url('../images/tourist.jpg'); 
     background-repeat: no-repeat; 
     background-size: cover; 
     height: 700px; 
     background-attachment: fixed; 
   }
+
+
+
+  #bkg6{
+    background: url('../images/fresh2.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 700px; 
+    background-attachment: fixed; 
+  }
+
+  #bkg7{
+    background: url('../images/airline.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 700px; 
+    background-attachment: fixed; 
+  }
+
+
+  #bkg9{
+    background: url('../images/close.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 700px; 
+    background-attachment: fixed; 
+  }
+
+
+  
+
+
 
   section #win1{
     margin-top: 200px;
@@ -93,4 +125,53 @@
     justify-content: center;
     display: flex;
   }
-  
+
+
+/* css de la page service*/
+#partenaires img{
+  height: 100px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+section #props{
+ align-items: center;
+ text-align: center;
+
+}
+
+section #props h1{
+  font-family: "Alice", serif;
+  font-weight: 400;
+  color: black;
+  font-style: normal;
+  font-size: 2em;
+}
+
+section #props h2{
+  font-family: "Alice", serif;
+  font-weight: 100;
+  color: black;
+  font-style: normal;
+  font-size: 1.5em;
+}
+
+section #props p{
+  font-family: "Alice", serif;
+  font-weight: 400;
+}
+
+section #jumbotron p{
+  font-size: 1.7em;
+}
+
+.blinker{
+  animation: blinker 1.5s linear infinite;
+}
+@keyframes blinker {
+50% {
+  opacity: 0;
+}
+}
+
+

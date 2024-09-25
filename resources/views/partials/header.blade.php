@@ -3,12 +3,12 @@
 
     <!-- Menu responsive -->
     <div class="toggle_menu">
-      <img src="images/menu_h.png" height="45px" width="34px" alt="menu hamburger">
+      <img src="images/menu_h.png" height="45px" width="46px" alt="menu hamburger">
     </div>
 
-    <div class="logo" id="logos">
+    <div class="logo">
       <a href="{{ route('index') }}">
-        <img src="images/logo2.png" style="height: 170px; width: 230px;">
+        <img src="images/logo2.png" style="height: 200px; width: 300px;">
       </a>
     </div>
 
@@ -23,18 +23,30 @@
 
 
     <div class="menu" id="menu">
+      <div class="container">
+        <div class="row">
+        <div class=col-md-6>
       <div class="ferme">
         <a href="#" onclick="closeMenu()" id="logs"><img src="images/fermer.png"></a>
       </div>
-      <a href="{{ route('index') }}" id="logos"><img src="images/logo2.png" style="height: 180px; width: 230px;"></a>
+      <!-- <a href="{{ route('index') }}" id="logos"><img src="images/logo2.png" style="height: 200px; width: 230px;"></a> -->
 
       <ul>
+      <li><img src="images/logo2.png" style="height: 200px; width: 300px; margin:-50px 0;"></li>
         <li class="ferme"><a href="#" onclick="closeMenu()">FERMER</a></li>
         <li><a href="{{ route('index') }}">ACCUEIL</a></li>
         <li><a href="{{ route('propos2') }}">A PROPOS</a></li>
         <li><a href="{{ route('service') }}">SERVICES</a></li>
-        <li><a href="{{ route('contact.store') }}"><div class="button" style="border-radius: 17px; background-color:#073766; padding:14px 75px; color:white; margin-top:10px; margin-bottom:30px;">Contact</div></a></li>
+        <li><a href="{{ route('reservation.store') }}"><div class="button" style="border-radius: 17px; background-color:#073766; padding:14px 75px; color:white; margin-top:10px; margin-bottom:30px;">Réserver ici</div></a></li>
       </ul>
+      </div>
+
+      <div class=col-md-6 id="pic">
+        <img src="images/jet.jpg">
+      </div>
+        </div>
+      </div>
+
     </div>
 
   </div> <!-- Fermeture de container-fluid -->

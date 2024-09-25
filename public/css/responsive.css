@@ -1,5 +1,6 @@
 @media (max-width: 992px) {
 
+
   #heading h1 {
       font-size: 2rem;
   }
@@ -20,9 +21,20 @@
     display: flex;
   }
 
-  .toggle_menu {
+  nav #pic img{
+    display: none;
+  }
+
+  nav .logo img {
+    margin-top: -30px;
+    margin-left: -20px;
+  }
+
+  .toggle_menu img{
     display: block;
-    margin-top: -20px;
+    margin-top: -40px;
+    height: 35px;
+    width: 35px;
   }
 
   nav .menu {
@@ -55,7 +67,9 @@ body nav .icon_c {
 }
 
 nav .whatsapp-icon {
-    margin-top: -30px;
+    margin-top: -90px;
+    height: 35px; 
+    width: 35px;
   }
 
   .menu {
@@ -74,8 +88,8 @@ nav .whatsapp-icon {
     height: auto;
   }
 
-  #cartes h1 {
-      font-size: 2rem;
+  header #btn-center {
+    display: none;
   }
 
   #cartes h2 {
@@ -145,7 +159,360 @@ nav .whatsapp-icon {
   section #jetp{
     margin-top: -500px;
   }
+
+  section #couvert img{
+    margin: 20px 0;
+    height: auto;
+    width: 300px;
+  }
 }
 
 
 
+@media (max-width: 524px) {
+
+  #bkg5{
+    width: 100%;
+  }
+
+  #bkg7{
+    background-position-x: right;
+  }
+
+
+  #heading h1 {
+      font-size: 1.8rem;
+  }
+
+  #heading p {
+      font-size: 0.8rem;
+  }
+
+  section #presentation h1 {
+      font-size: 1.6rem;
+  }
+
+  section #presentation p {
+      font-size: 0.8rem;
+  }
+
+  header{
+    display: flex;
+  }
+
+  nav #pic img{
+    display: none;
+  }
+
+  nav .logo img {
+    margin-top: -30px;
+    margin-left: -20px;
+  }
+
+  .toggle_menu img{
+    display: block;
+    margin-top: -40px;
+    height: 30px;
+    width: 30px;
+  }
+
+  nav .menu {
+    width: 100%; /* Menu prend plus de place sur mobile */
+  }
+
+  nav .menu #logos img {
+    display: none; /* Masque le logo dans le header principal en mode mobile */
+
+  }
+
+  /* Menu en mode mobile (responsive) */
+nav .menu.mobile-menu {
+    transform: translateX(100%);
+    width: 100%; /* Le menu occupe 100% de la largeur en mode responsive */
+  }
+
+
+
+body nav .icon_c img {
+    display: none;
+    background-color: transparent;
+    border: 0;
+}
+
+body nav .icon_c {
+    display: none;
+    border: 0;
+    background-color: transparent;
+}
+
+nav .whatsapp-icon {
+    margin-top: -90px;
+    height: 32px; 
+    width: 32px;
+  }
+
+  .menu {
+    padding-top: 0;
+  }
+
+  #cartes #av1 img, 
+  #cartes #av2 img, 
+  #cartes #av4 img {
+      margin: 18px 0;
+      height: auto;
+  }
+
+  #cartes #av3 img {
+    margin: 18px 0;
+    height: auto;
+  }
+
+  header #btn-center a{
+    display: none;
+
+  }
+
+  #cartes h2 {
+      font-size: 1.3rem;
+  }
+
+  .custom-btn {
+      width: 110px;
+      height: 35px;
+      padding: 8px 22px;
+      font-size: 12px;
+  }
+
+  section #jumbotron h1, 
+  section #title_last h1 {
+      font-size: 2.2rem;
+      text-align: center;
+  }
+
+  #citations img {
+      height: 60px;
+  }
+
+  section #icone img {
+      margin: 0 auto;
+      display: block;
+  }
+
+  #proverbes img {
+      margin: 0 auto;
+      display: block;
+  }
+
+  #proverbes #icone h2 {
+      margin-bottom: 20px;
+      text-align: center;
+  }
+
+  #images #img2 {
+      display: none;
+  }
+
+  #images #img1 {
+      height: 35%;
+      margin: 0 auto;
+  }
+  header .container, 
+  section .container {
+      padding-left: 13px;
+      padding-right: 13px;
+  }
+
+  #cartes {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  section #jumbotron button{
+    margin-left: 30%;
+  }
+
+  #cartes img {
+      margin: 0 auto;
+      max-width: 100%;
+  }
+
+  section #jetp{
+    margin-top: -500px;
+  }
+
+  section #couvert img{
+    margin: 20px 0;
+    height: auto;
+    width: 300px;
+  }
+}
+
+
+
+
+@media (max-width: 364px) {
+
+  #heading h1 {
+      font-size: 1.6rem;
+  }
+
+  #heading p {
+      font-size: 0.6rem;
+  }
+
+  section #presentation h1 {
+      font-size: 1.4rem;
+  }
+
+  section #presentation p {
+      font-size: 0.6rem;
+  }
+
+  header{
+    display: flex;
+  }
+
+  nav #pic img{
+    display: none;
+  }
+
+  nav .logo img {
+    margin-top: -30px;
+    margin-left: -20px;
+  }
+
+  .toggle_menu img{
+    display: block;
+    margin-top: -40px;
+    height: 22px;
+    width: 22px;
+  }
+
+  nav .menu {
+    width: 100%; /* Menu prend plus de place sur mobile */
+  }
+
+  nav .menu #logos img {
+    display: none; /* Masque le logo dans le header principal en mode mobile */
+
+  }
+
+  /* Menu en mode mobile (responsive) */
+nav .menu.mobile-menu {
+    transform: translateX(100%);
+    width: 100%; /* Le menu occupe 100% de la largeur en mode responsive */
+  }
+
+
+
+body nav .icon_c img {
+    display: none;
+    background-color: transparent;
+    border: 0;
+}
+
+body nav .icon_c {
+    display: none;
+    border: 0;
+    background-color: transparent;
+}
+
+nav .whatsapp-icon {
+    margin-top: -90px;
+    height: 30px; 
+    width: 30px;
+  }
+
+  .menu {
+    padding-top: 0;
+  }
+
+  #cartes #av1 img, 
+  #cartes #av2 img, 
+  #cartes #av4 img {
+      margin: 20px 0;
+      height: auto;
+  }
+
+  #cartes #av3 img {
+    margin: 20px 0;
+    height: auto;
+  }
+
+  header #btn-center a{
+    display: none;
+  }
+
+  #cartes h2 {
+      font-size: 1rem;
+  }
+
+  .custom-btn {
+      width: 90px;
+      height: 30px;
+      padding: 6px 20px;
+      font-size: 10px;
+  }
+
+  section #jumbotron h1, 
+  section #title_last h1 {
+      font-size: 2rem;
+      text-align: center;
+  }
+
+  header .container, 
+  section .container {
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+
+  #cartes {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  section #jumbotron button{
+    margin-left: 30%;
+  }
+
+  #cartes img {
+      margin: 0 auto;
+      max-width: 100%;
+  }
+
+  section #jetp{
+    margin-top: -500px;
+  }
+
+  section #couvert img{
+    margin: 20px 0;
+    height: auto;
+    width: 250px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .flex {
+      display: block;
+  }
+
+  label {
+      width: 100%;
+  }
+
+  .form-control {
+      width: 100%; /* S'assure que les champs prennent toute la largeur */
+  }
+
+  #bkg7{
+    background-position-x: -90px;
+    width: 100%;
+  }
+
+  #bkg9{
+    background-position-x: -150px;
+    width: 100%;
+  }
+
+}

@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\ContactController;
-
+use App\Http\Controllers\ReservationController;
 
 Route::get('/', [PageController::class, 'index'])->name('index');
 Route::get('/propos', [PageController::class, 'propos'])->name('propos');
@@ -17,8 +17,9 @@ Route::get('/formation', [PageController::class, 'formation'])->name('formation'
 Route::get('/contact', [ContactController::class, 'showForm'])->name('contact.form');
 Route::post('/contact', [ContactController::class, 'submitForm'])->name('contact.submit');
 Route::post('/contact', [ContactController::class, 'store'])->name('contact.store');
-
-
+Route::get('/reservation', [ReservationController::class, 'showForm'])->name('reservation.form');
+Route::post('/reservation', [ReservationController::class, 'submitForm'])->name('reservation.submit');
+Route::post('/reservation', [ReservationController::class, 'store'])->name('reservation.store');
 
 
 

@@ -33,12 +33,12 @@
 @section('content')
   <header>
                 <!-- cover -->
-    <section class="pt-5 pb-5 mt-0 align-items-center d-flex bg-dark" id="bkg1" class="page-holder bg-cover">
+    <section class="pt-5 pb-5 mt-0 align-items-center d-flex bg-dark" id="bkg7" class="page-holder bg-cover">
     
         <div class="container-fluid" id="top">
             <div class="row  justify-content-center align-items-center d-flex text-center h-100">
-            <div class="col-12 col-md-8  h-50 " style="margin-top: 80px;">
-                <h1 class="display-2  text-light mb-2 mt-5" id="reussir"><strong><span><span style=" color:white ;">Formation Cabine Crew</span></span></h1>
+            <div class="col-12 col-md-8  h-50 " style="margin-top: 180px;">
+                <h1 class="display-2  text-light mb-2 mt-5" id="reussir"><strong><span><span style=" color:white ; font-weight:bolder; font-size:0.7em; margin-top: 160px;">Formation Cabine Crew</span></span></h1>
             </div>
             
             </div>

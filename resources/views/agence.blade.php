@@ -35,12 +35,12 @@
 @section('content')
   <header>
                 <!-- cover -->
-    <section class="pt-5 pb-5 mt-0 align-items-center d-flex bg-dark" id="bkg1" class="page-holder bg-cover">
+    <section class="pt-5 pb-5 mt-0 align-items-center d-flex bg-dark" id="bkg9" class="page-holder bg-cover">
     
         <div class="container-fluid" id="top">
             <div class="row  justify-content-center align-items-center d-flex text-center h-100">
             <div class="col-12 col-md-8  h-50 " style="margin-top: 120px;">
-                <h1 class="display-2  text-light mb-2 mt-5" id="reussir"><strong><span><span style=" color:white ;">Ride with us through the sky.</span></span></h1>
+                <h1 class="display-2  text-light mb-2 mt-5" id="reussir"><strong><span><span style=" color:white ; font-weight:bolder;">Luxe Travel</span></span></h1>
             </div>
             
             </div>
@@ -49,6 +49,22 @@
 
   </header>
 
+  <section>
+  <div class="container">
+
+<div class="row" id="cartes" style="margin-top: 30px; margin-bottom:100px;">
+  <div class="col-md-8" id="av1">
+    <img src="images/luxe3.jpg" class="image-to-animate"/>
+  </div>
+  <div class="col-md-4">
+    <h2>Luxe Travel</h2>
+    <p>
+    Profitez d'une expérience de vol sur mesure avec Omatuku Jets, alliant luxe, confort et confidentialité. Nos jets privés 
+    sont à votre disposition pour des voyages exclusifs, offrant un service impeccable pour une clientèle exigeante.
+    </p>
+  </div>
+</div>
+  </section>
   
   <!-- Page section example for content below the video header -->
   

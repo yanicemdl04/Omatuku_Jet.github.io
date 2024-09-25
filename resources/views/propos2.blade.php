@@ -40,9 +40,12 @@
     
         <div class="container-fluid" id="top">
             <div class="row  justify-content-center align-items-center d-flex text-center h-100">
-            <div class="col-12 col-md-8  h-50 " style="margin-top: 120px;">
-                <h1 class="display-2  text-light mb-2 mt-5" id="reussir"><strong><span><span style=" color:white ;">Ride with us through the sky.</span></span></h1>
-            </div>
+            <div class="col-12 col-md-8  h-50 " style="margin-top: 180px;">
+                <h1 class="display-2  text-light mb-2 mt-5" id="reussir"><strong><span><span style=" color:white; font-size:0.4em; font-weight:bolder;">A PROPOS</span></span></h1>
+                <p class="lead mb-0" id="txt" style=" color:white; font-weight:250;">Votre partenaire de confiance</p>
+
+            </div>            
+        </div>
             
             </div>
         </div>
@@ -50,14 +53,13 @@
 
   </header>
 
-  <!-- Page section example for content below the video header -->
   <section>
     <div class="container">
       <div class="row">
-        <div class="bordure">
-          <div class="window" id="win1">
-            <h1>  QUI SOMMES-NOUS ?  </h1>
-            <p>Omatuku Jets est basé à Kinshasa, République
+        <div id="props">
+          <h2>OMATUKU JETS</h2>
+          <h1>Qui sommes-nous <span class="blinker">?</span></h1>
+          <p>Omatuku Jets est basé à Kinshasa, République
                 démocratique du Congo et nous offrons des services
                 d’affrètement de jet privé, de transport aérien de
                 marchandises et nous avons une agence de voyage haut
@@ -65,67 +67,61 @@
                 tout en offrant des formations specialisées pour
                 équipages de cabines, renforcant ainsi notre engagement
                 envers l’excellence.
-                </p>
-          </div>
+          </p>
         </div>
       </div>
     </div>
   </section>
 
 
-  <section>
-    <div class="container">
-      <div class="row">
-        <div class="bordure">
-          <div class="window">
-            <h1>  Nos Valeurs </h1>
-            <p><strong>Excellence et Innovation</strong> <br>
-                Nous visons l'excellence dans chaque
-                aspect de notre activité, en investissant
-                dans l'innovation pour offrir des
-                solutions de pointe à nos clients
-              </p>
-
-              <p><strong>Satisfaction Client</strong> <br>
-                La satisfaction de nos clients est notre
-                priorité absolue. Notre équipe dévouée
-                est disponible 24/7 pour dépasser les
-                attentes de nos clients et assurer une
-                expérience exceptionnelle.
-              </p>
-
-              <p><strong>Confidentialité et Exclusivité</strong> <br>
-                Nous garantissons la confidentialité de
-                nos clients et leur offrons une
-                expérience exclusive et personnalisée,
-                avec discrétion et attention aux détails
-              </p>
+  <section id="jumbotron">
+  <div class="row">
+    <div class="cv-container">
+      <div class="container px-2 py-5">
+        <div class="row row-cols-1 row-cols-sm-2 g-4 py-5">
+          <div class="col">
+            <div class="d-flex flex-column align-items-center">
+              <h2 style="color: white;">Avions</h2>
+              <p style="color: #1565c0; font-size:1.7em;">8</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="d-flex flex-column align-items-center">
+              <h2 style="color: white;">Salariés</h2>
+              <p style="color: #1565c0; font-size:1.7em;">23</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="d-flex flex-column align-items-center">
+              <h2 style="color: white;">Locaux</h2>
+              <p style="color: #1565c0; font-size:1.7em;">3</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="d-flex flex-column align-items-center">
+              <h2 style="color: white;">Partenaires</h2>
+              <p style="color: #1565c0; font-size:1.7em;">12</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-
-  
   <section>
     <div class="container">
       <div class="row">
-        <div class="bordure">
-          <div class="window">
-            <h1>  Notre Vision  </h1>
-            <p><strong>Révolutionner le tourisme en RDC</strong> <br>
-                Révolutionner l'industrie du
+        <div id="props" style="margin-bottom: 50px;">
+          <h2 style="margin-top: 30px;">OMATUKU JETS</h2>
+          <h1>Notre vision</h1>
+          <p class="col-md-12">Révolutionner l'industrie du
                 tourisme en RDC en proposant
                 des expériences de voyage
                 uniques et en mettant en avant
                 les destinations exceptionnelles
                 de notre pays à l'échelle
-                mondiale
-              </p>
-
-              <p><strong>Booster l'economie locale</strong> <br>
-                Contribuer au développement
+                mondiale. Contribuer aussi au développement
                 économique de la RDC en
                 stimulant les secteurs du
                 tourisme et de l'aviation, en
@@ -133,14 +129,81 @@
                 favorisant les investissements
                 dans les infrastructures
                 aéroportuaires et touristiques
-              </p>
-          </div>
+          </p>
         </div>
       </div>
     </div>
   </section>
 
 
+
+  <section>
+  <div class="col-md-7 col-lg-8">
+        <h4 class="mb-3">Contact</h4>
+        <form class="needs-validation" novalidate style="margin-bottom: 100px;">
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <label for="firstName" class="form-label">First name</label>
+              <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+              <div class="invalid-feedback">
+                Valid first name is required.
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <label for="lastName" class="form-label">Last name</label>
+              <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+              <div class="invalid-feedback">
+                Valid last name is required.
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="username" class="form-label">Username</label>
+              <div class="input-group has-validation">
+                <span class="input-group-text">@</span>
+                <input type="text" class="form-control" id="username" placeholder="Username" required>
+              <div class="invalid-feedback">
+                  Your username is required.
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="email" class="form-label">Email <span class="text-body-secondary">(Optional)</span></label>
+              <input type="email" class="form-control" id="email" placeholder="you@example.com">
+              <div class="invalid-feedback">
+                Please enter a valid email address for shipping updates.
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="address" class="form-label">Address</label>
+              <input type="text" class="form-control" id="address" placeholder="1234 Main St" required>
+              <div class="invalid-feedback">
+                Please enter your shipping address.
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="address2" class="form-label">Address 2 <span class="text-body-secondary">(Optional)</span></label>
+              <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+            </div>
+
+            <div class="col-md-5">
+              <label for="country" class="form-label">Country</label>
+              <select class="form-select" id="country" required>
+                <option value="">Choose...</option>
+                <option>United States</option>
+              </select>
+              <div class="invalid-feedback">
+                Please select a valid country.
+              </div>
+            </div>
+            <a href="{{ route('reservation.store') }}"><button class="custom-btn btn-2">Reservation</button></a>
+          </div>
+        </form>
+  </section>
   
   <!-- Page section example for content below the video header -->
   

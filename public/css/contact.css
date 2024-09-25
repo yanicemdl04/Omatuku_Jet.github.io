@@ -1,7 +1,4 @@
-body {
-    height: 100%;
-  }
-  
+
   .form-signin {
     max-width: 330px;
     padding: 1rem;
@@ -21,4 +18,61 @@ body {
     margin-bottom: 10px;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
+  }
+
+
+  /* Styles généraux */
+  .menu-title {
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+  }
+
+  .tablink {
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .tablink:hover,
+  .tablink.w3-red {
+    background-color: #004dff !important; /* Rouge clair au survol et à la sélection */
+    color: white;
+  }
+
+
+
+  #menuf h1 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+
+  #menuf #mangue h3{
+    font-size: 0.6em;
+  }
+
+  #menuf #mangue input{
+    width: 100px;
+  }
+
+  #menuf main label{
+    font-size: 0.5em;
+  }
+
+  section #menuf {
+    background:url('../imageS/wide.jpg');
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+  }
+
+  section #mangue{
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+  }
+
+
+  .flex {
+    display: flex;
+    margin-bottom: 20px;
+    gap: 15px;
   }

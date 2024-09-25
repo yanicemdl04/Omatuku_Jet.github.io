@@ -31,15 +31,15 @@
 <body>
 
 @section('content')
-
 <header>
                 <!-- cover -->
     <section class="pt-5 pb-5 mt-0 align-items-center d-flex bg-dark" id="bkg3" class="page-holder bg-cover">
     
         <div class="container-fluid" id="top">
             <div class="row  justify-content-center align-items-center d-flex text-center h-100">
-            <div class="col-12 col-md-8  h-50 " style="margin-top: 120px;">
-                <h1 class="display-2  text-light mb-2 mt-5" id="reussir"><strong><span><span style=" color:white ; font-weight:bold;">CARGO JET</span></span></h1>
+            <div class="col-12 col-md-8  h-50 " style="margin-top: 180px;">
+                <h1 class="display-2  text-light mb-2 mt-5" id="reussir"><strong><span><span style=" color:white; font-size:0.4em; font-weight:bolder;">TRANSPORT, CARGO, AERIEN</span></span></h1>
+                <p class="lead mb-0" id="txt" style=" color:white; font-weight:250;">Rapide et fiable |  Securité maximal |  Couverture mondiale</p>
             </div>
             
             </div>
@@ -70,7 +70,7 @@
                 efficace des cargaisons variées, tout en garantissant une performance optimale. Sa conception
                 robuste permet une adaptation facile à différents types de fret, répondant ainsi aux besoins
                 diversifiés du secteur cargo</p>
-                <a href="{{ route('contact.store') }}"><button class="custom-btn btn-2">Reservation</button></a>
+                <a href="{{ route('reservation.store') }}"><button class="custom-btn btn-2">Reservation</button></a>
           </div>
 
 
@@ -81,7 +81,7 @@
                 offrant une solution idéale pour le transport de grandes quantités de marchandises. Cet appareil
                 allie une capacité de chargement exceptionnelle à une performance fiable, assurant une efficacité
                 accrue pour les opérations cargo sur de longues distances            </p>
-                <a href="{{ route('contact.store') }}"><button class="custom-btn btn-2">Reservation</button></a>
+                <a href="{{ route('reservation.store') }}"><button class="custom-btn btn-2">Reservation</button></a>
           </div>
           <div class="col-md-7">
             <img src="../images/cargo2.png"/>
@@ -102,7 +102,7 @@
                 solution efficace et fiable pour les besoins du transport aérien de marchandises, que ce soit pour
                 des trajets régionaux ou plus étendus.
               </p>
-              <a href="{{ route('contact.store') }}"><button class="custom-btn btn-2">Reservation</button></a>
+              <a href="{{ route('reservation.store') }}"><button class="custom-btn btn-2">Reservation</button></a>
               </div>
         </div>
       </div>

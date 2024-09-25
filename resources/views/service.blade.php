@@ -24,6 +24,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/responsive.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/other.css') }}">
+
 
 
 </head>
@@ -31,14 +33,15 @@
 <body>
   <header>
                 <!-- cover -->
-    <section class="pt-5 pb-5 mt-0 align-items-center d-flex bg-dark" id="bkg" class="page-holder bg-cover">
+    <section class="pt-5 pb-5 mt-0 align-items-center d-flex bg-dark" id="bkg8" class="page-holder bg-cover">
     
         <div class="container-fluid" id="top">
             <div class="row  justify-content-center align-items-center d-flex text-center h-100">
-            <div class="col-12 col-md-8  h-50 " style="margin-top: 120px;">
-                <h1 class="display-2  text-light mb-2 mt-5" id="reussir"><strong><span><span style=" color:white ;">Our services</span></span></h1>
-                <p class="lead  text-light mb-5" id="reussir"><span><span>We provide a wide range of professional services to meet your needs. 
-                  We promise to provide every service with a smile, and to your highest level of satisfaction.</span></span></p>      
+            <div class="col-12 col-md-8  h-50 " style="margin-top: 180px;">
+                <h1 class="display-2  text-light mb-2 mt-5" id="reussir"><strong><span><span style=" color:white; font-size:0.4em; font-weight:bolder;">Nos services</span></span></h1>
+                <p class="lead  text-light mb-5" id="reussir"><span><span>
+                Nous proposons une large gamme de services professionnels pour répondre à vos besoins. 
+                Nous nous engageons à fournir chaque service avec le sourire et à votre plus haut niveau de satisfaction.</span></span></p>      
             </div>
             
             </div>
@@ -59,66 +62,38 @@
             <img src="https://irp.cdn-website.com/md/dmtmpl/f3744e48-0dcf-45c2-8f56-f828fa68d2b6/dms3rep/multi/mobile/jason-goodman-nF0nQuqBsrI-unsplash.jpg"/>
           </div>
           <div class="col-md-5">
-            <h2 style="  margin-top: 120px;">Espace de coworking ouvert</h2>
+            <h2 style="  margin-top: 120px;">Formation cabine crew</h2>
             <p>
-            Découvrez notre espace de coworking ouvert, un lieu dynamique et inspirant où la collaboration et la créativité s'épanouissent. Conçu pour les professionnels, entrepreneurs et freelances, cet espace convivial offre une atmosphère propice à l'échange d'idées et à l'innovation.
-            </p>
-            <button class="custom-btn btn-2">Read More</button>
+            Omatuku Jets s'engage activement auprès des anciens futurs talents de l'aviation en proposant des programmes de formation pour le personnel de cabine qui sont axés sur l'excellence et le professionnalisme. Nos formations exhaustives couvrent tous les aspects essentiels du métier, allant de la sécurité en vol, qui est primordiale, au service client haut de gamme, qui fait la réputation des compagnies aériennes. Nous disposons d'instructeurs expérimentés issus du secteur, qui apportent une richesse de connaissances et d'expertise à chaque session. Les participants à nos programmes bénéficient d'un apprentissage à la fois pratique et théorique, ce qui leur permet de développer des compétences solides et variées.             </p>
           </div>
 
 
           <div class="col-md-5">
-            <h2 style="  margin-top: 120px;">Meeting rooms</h2>
+            <h2 style="  margin-top: 120px;">Jet privé</h2>
             <p>
-            Notre salle de réunion est un espace parfaitement aménagé pour favoriser des échanges productifs et des collaborations fructueuses. Équipée des dernières technologies audiovisuelles, elle permet des présentations fluides et des visioconférences de haute qualité, garantissant que chaque participant soit impliqué, qu'il soit présent sur place ou à distance. 
-            </p>
-            <button class="custom-btn btn-2">Read More</button>
+            Profitez d'une expérience de vol sur mesure et inégalée avec Omatuku Jets, qui allie harmonieusement luxe, confort et confidentialité. Nos jets privés, méticuleusement entretenus et équipés des dernières technologies, sont à votre entière disposition pour des voyages exclusifs, que ce soit pour des déplacements d'affaires ou des escapades personnelles. Nous nous engageons à offrir un service impeccable, répondant aux plus hautes attentes de notre clientèle exigeante. Chaque détail est soigneusement pensé pour garantir un voyage agréable et mémorable, que ce soit à travers des aménagements somptueux, une gastronomie raffinée ou un personnel attentif et professionnel, toujours prêt à anticiper vos besoins.             </p>
           </div>
           <div class="col-md-7">
-            <img src="https://irp.cdn-website.com/md/dmtmpl/f3744e48-0dcf-45c2-8f56-f828fa68d2b6/dms3rep/multi/mobile/elena-baidak-pz69kY0UQuQ-unsplash.jpg"/>
+            <img src="images/privatejet.jpg"/>
           </div>
 
 
           <div class="row" id="cartes">
             <div class="col-md-8">
-              <img src="https://irp.cdn-website.com/md/dmtmpl/f3744e48-0dcf-45c2-8f56-f828fa68d2b6/dms3rep/multi/mobile/austin-distel-KWsKzLGmmzQ-unsplash.jpg"/>
+              <img src="images/airplane2.jpg"/>
             </div>
             <div class="col-md-4" style="margin-top: 30px;">
-              <h2 style="  margin-top: 120px;">Event spaces</h2>
+              <h2 style="  margin-top: 120px;">Cargo</h2>
               <p>
-              Notre équipe dévouée est là pour vous accompagner dans l'organisation de votre événement, en vous offrant des solutions sur mesure qui répondent à vos besoins spécifiques. Profitez également de services complémentaires tels que la restauration, le Wi-Fi gratuit et des espaces de détente
-              </p>
-              <button class="custom-btn btn-2">Read More</button>
-            </div>
+              Omatuku Jets se spécialise dans l'offre de solutions de transport de marchandises à la fois sûres et extrêmement efficaces, soigneusement conçues pour répondre aux besoins spécifiques et variés de chaque client. 
+              Nous comprenons que chaque expédition est unique, c'est pourquoi nos services englobent une vaste gamme de marchandises, allant des colis sensibles qui nécessiteront une manipulation 
+              délicate aux cargaisons volumineuses qui nécessitent une attention particulière. </p>
+              </div>
         </div>
       </div>
     </div>
   </section>
 
-
-  <section>
-    <div class="container">
-        <div id="partenaires">
-            <div id="titles">
-                <h1>Our clients</h1>
-            </div>
-            <div class="row row-cols-2 row-cols-md-4 align-items-stretch">
-                <div class="col-6 col-md-3">
-                    <img src="https://irp.cdn-website.com/md/dmtmpl/f3744e48-0dcf-45c2-8f56-f828fa68d2b6/dms3rep/multi/thumbnail/CNN-logo.svg">
-                </div>
-                <div class="col-6 col-md-3">
-                    <img src="https://irp.cdn-website.com/md/dmtmpl/f3744e48-0dcf-45c2-8f56-f828fa68d2b6/dms3rep/multi/mobile/Conan.svg">
-                </div>
-                <div class="col-6 col-md-3">
-                    <img src="https://irp.cdn-website.com/md/dmtmpl/f3744e48-0dcf-45c2-8f56-f828fa68d2b6/dms3rep/multi/mobile/Spotify-logo.svg">
-                </div>
-                <div class="col-6 col-md-3">
-                    <img src="https://irp.cdn-website.com/md/dmtmpl/f3744e48-0dcf-45c2-8f56-f828fa68d2b6/dms3rep/multi/mobile/Slack-logo.svg">
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 <section>
     <div class="container-fluid black-bg">
