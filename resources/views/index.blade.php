@@ -90,7 +90,7 @@
           </div>
 
 
-          <div class="col-md-5">
+          <div class="col-md-5" id="av2">
             <h2 style="padding-top: 55px;">Agence de Voyage</h2>
             <p>
             Omatuku Jets transforme vos envies de voyage en expériences inoubliables grâce à une approche sur mesure. 
@@ -109,10 +109,9 @@
             </div>
             <div class="col-md-4" style="margin-top: 30px;">
               <h2>Cargo</h2>
-              <p class="">
-              Omatuku Jets offre des solutions de transport cargo sûres et efficaces, adaptées aux besoins spécifiques de chaque client. Nos services couvrent une large gamme de marchandises, des colis sensibles aux cargaisons volumineuses, avec une priorité sur Grâce à notre réseau logistique fiable, 
-              nous assurons des livraisons rapides et en toute transparence. <br>
-              <a href="{{ route('cargo') }}"><button class="custom-btn btn-2">Read More</button></a>
+              <p style="margin-bottom: 10px;">
+              Omatuku Jets offre des solutions de transport cargo sûres et efficaces, adaptées aux besoins spécifiques de chaque client. Nos services couvrent une large gamme de marchandises, des colis sensibles aux cargaisons volumineuses. <br>
+              <a href="{{ route('cargo') }}"><button class="custom-btn btn-2" style="margin-top: 20px;">Read More</button></a>
             </div>
         </div>
 
@@ -122,7 +121,6 @@
           <p>
           Omatuku Jets forme les futurs talents de l’aviation avec des programmes de formation cabine crew axés sur 
             l’excellence et le professionnalisme. Nos formations couvrent tous les aspects du métier, de la sécurité en vol au service client haut de gamme, avec des instructeurs expérimentés du secteur. 
-            Les participants bénéficient d’un apprentissage pratique et théorique pour développer des compétences solides et se préparer aux exigences de l’aviation moderne. 
            </p>
          <a href="{{ route('formation') }}"><button class="custom-btn btn-2">Read More</button></a>
         </div>
@@ -141,7 +139,7 @@
       <div class="cv-container" id="jumbotron">
         <h1>La transparence et l'innovation sont au cœur de notre entreprise, 
           <br>reflétant une volonté d'être une structure authentique</h1>
-          <a href="{{ route('propos') }}"> <button class="custom-btn btn-2">Read More</button></a>
+          <a href="{{ route('propos2') }}"> <button class="custom-btn btn-2">Read More</button></a>
       </div>
     </div>
   </section>

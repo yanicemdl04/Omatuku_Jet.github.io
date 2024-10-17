@@ -25,7 +25,7 @@
     @csrf <!-- Protection CSRF -->
     
     
-    <img class="mb-4" src="images/logo1.jpg" alt="" width="160" height="65">
+    <img class="mb-4" src="images/logo1.jpg" alt="" width="250" height="65">
     <h1 class="h3 mb-3 fw-normal">Contactez-nous</h1>
 
     <div class="email">
@@ -59,8 +59,7 @@
     <div class="formule">
       <div class="form-floating">
             <select class="form-select" type="text" name="formule" id="floatingInput" placeholder="turbo jet" for="formule">
-              <option value="1">Jets</option>
-              <option value="2">Cargo</option>
+              <option value="1">Cargo</option>
             </select>
       </div>
     </div>

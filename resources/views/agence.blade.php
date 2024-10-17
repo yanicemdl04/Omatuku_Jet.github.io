@@ -39,8 +39,8 @@
     
         <div class="container-fluid" id="top">
             <div class="row  justify-content-center align-items-center d-flex text-center h-100">
-            <div class="col-12 col-md-8  h-50 " style="margin-top: 120px;">
-                <h1 class="display-2  text-light mb-2 mt-5" id="reussir"><strong><span><span style=" color:white ; font-weight:bolder;">Luxe Travel</span></span></h1>
+            <div class="col-12 col-md-8  h-50 " style="margin-top: 180px;">
+                <h1 class="display-2  text-light mb-2 mt-5" id="reussir"><strong><span><span style=" color:white ; font-weight:bolder; font-size:0.8em;">Luxe Travel</span></span></h1>
             </div>
             
             </div>
@@ -51,21 +51,25 @@
 
   <section>
   <div class="container">
-
-<div class="row" id="cartes" style="margin-top: 30px; margin-bottom:100px;">
-  <div class="col-md-8" id="av1">
-    <img src="images/luxe3.jpg" class="image-to-animate"/>
+  <div class="row" id="cartes">
+    <div id="props">
+      <h2 style="font-size: 2.5em;">LUXE TRAVEL by OMATUKU JETS</h2>
+    </div>
+            <div class="col-md-7"  id="av3" >
+              <img src="images/mediumshot.jpg" class="image-to-animate"/>
+            </div>
+            <div class="col-md-5" style="margin-top: 30px;">
+              <h2>En Savoir plus</h2>
+              <p>
+              Découvrez le monde du voyage aérien raffiné avec Luxe Travel , un serviceOmatuku Jets qui a pour ambition de rendre l'
+              Imaginez-vous à bord de nos jets privés, où chaque détail est soigneusement pensé pour vous garantir un confort inégalé. Que ce soit pour un voyage d'affaires urgent, une escapade romantique ou une aventure familiale, nos avions sont équipés des dernières technologies.
+              Avec Luxe Travel, nous mettons un point d'honneur à offrir un service impeccable, adapté à toutes les exigences de notre clientèle diversifiée. Notre équipe dévouée est disponible 24 heures sur 24 pour personnaliser votre expérience de vol, que ce soit par des options de restauration raffinées, des divertissements à la demande, ou encore des aménagements spécifiques pour répondre à vos attentes.
+                
+              </p>
+            </div>
+        </div>
   </div>
-  <div class="col-md-4">
-    <h2>Luxe Travel</h2>
-    <p>
-    Profitez d'une expérience de vol sur mesure avec Omatuku Jets, alliant luxe, confort et confidentialité. Nos jets privés 
-    sont à votre disposition pour des voyages exclusifs, offrant un service impeccable pour une clientèle exigeante.
-    </p>
-  </div>
-</div>
-  </section>
-  
+  </section> 
   <!-- Page section example for content below the video header -->
   
 @endsection

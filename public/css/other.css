@@ -8,7 +8,7 @@
   }
 
   #bkg3{
-    background: url('../images/airplane2.jpg'); 
+    background: url('../images/airplane02.png'); 
     background-repeat: no-repeat; 
     background-size: cover;
     height: 700px; 
@@ -16,7 +16,7 @@
   }
 
   #bkg4{
-    background: url('../images/airplane.jpg'); 
+    background: url('../images/airplane01.png'); 
     background-repeat: no-repeat; 
     background-size: cover; 
     height: 700px; 
@@ -52,7 +52,7 @@
 
 
   #bkg9{
-    background: url('../images/close.jpg'); 
+    background: url('../images/african.jpg'); 
     background-repeat: no-repeat;
     background-size: cover; 
     height: 700px; 
@@ -60,7 +60,9 @@
   }
 
 
-  
+  #cartes #cargs h2{
+    margin-top: 120px;
+  }
 
 
 

@@ -493,6 +493,36 @@ nav .whatsapp-icon {
 
 
 @media screen and (max-width: 768px) {
+
+  section #cartes #av3 img{
+    margin-bottom: -50px;
+  }
+
+  section #cartes #av1 img{
+    margin-bottom: -30px;
+  }
+
+  section #cartes #av2 h2{
+    margin-top: 0px;
+  }
+
+  #cards #jumbotron h1{
+    font-size: 1.5em;
+  }
+
+  #jumbotron h2{
+    font-size: 1.5em;
+  }
+
+  #jumbotron p{
+    font-size: 1.5em;
+    margin-bottom:-10px;
+  }
+
+  #cartes #cargs h2{
+    margin-top: 50px;
+  }
+
   .flex {
       display: block;
   }
@@ -514,5 +544,7 @@ nav .whatsapp-icon {
     background-position-x: -150px;
     width: 100%;
   }
+
+
 
 }

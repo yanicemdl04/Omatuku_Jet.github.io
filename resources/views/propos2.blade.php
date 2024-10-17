@@ -81,24 +81,28 @@
         <div class="row row-cols-1 row-cols-sm-2 g-4 py-5">
           <div class="col">
             <div class="d-flex flex-column align-items-center">
+              <img src="images/avion.png" width="35px" style="margin-bottom: 10px;">
               <h2 style="color: white;">Avions</h2>
               <p style="color: #1565c0; font-size:1.7em;">8</p>
             </div>
           </div>
           <div class="col">
             <div class="d-flex flex-column align-items-center">
+            <img src="images/candidat.png" width="45px" style="margin-bottom: 10px;">
               <h2 style="color: white;">Salariés</h2>
               <p style="color: #1565c0; font-size:1.7em;">23</p>
             </div>
           </div>
           <div class="col">
             <div class="d-flex flex-column align-items-center">
+            <img src="images/lieu.png" width="35px" style="margin-bottom: 10px;">
               <h2 style="color: white;">Locaux</h2>
               <p style="color: #1565c0; font-size:1.7em;">3</p>
             </div>
           </div>
           <div class="col">
             <div class="d-flex flex-column align-items-center">
+            <img src="images/partenaires.png" width="45px" style="margin-bottom: 10px;">
               <h2 style="color: white;">Partenaires</h2>
               <p style="color: #1565c0; font-size:1.7em;">12</p>
             </div>
@@ -200,7 +204,7 @@
                 Please select a valid country.
               </div>
             </div>
-            <a href="{{ route('reservation.store') }}"><button class="custom-btn btn-2">Reservation</button></a>
+            <a href="{{ route('contact.store') }}"><button class="custom-btn btn-2">Contacter</button></a>
           </div>
         </form>
   </section>

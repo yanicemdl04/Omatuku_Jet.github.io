@@ -47,25 +47,27 @@
 
   </header>
 
-  <section>
-    <div class="container">
-      <div class="row">
-        <div id="presentation">
-          <h2>En savoir plus</h2>
-          <p>Nous assurons également la
-            formation complète des
-            équipages de cabine pour
-            garantir des standards de
-            sécurité et de service
-            irréprochables.
-          </p>
+<section>
+  <div class="container">
+  <div class="row" id="cartes">
+            <div class="col-md-7"  id="av3" >
+              <img src="images/study.jpg" class="image-to-animate"/>
+            </div>
+            <div class="col-md-5" style="margin-top: 30px;">
+              <h2>En Savoir plus</h2>
+              <p>
+              Chez Omatuku Jets, nous proposons une formation complète et personnalisée à nos équipages de cabine, 
+              s'appuyant sur l'expertise de professionnels chevronnés du secteur aéronautique. Nos programmes de formation 
+              couvrent l'ensemble des compétences requises pour assurer un service de haute qualité à bord de nos jets privés :
+               accueil des passagers, gestion des urgences, sécurité en vol, service à table et connaissance des protocoles de luxe. 
+               Grâce à cette formation rigoureuse et continue, nos équipages de cabine sont en mesure de garantir et répondre des standards de sécurité 
+               , de service irréprochables et aux attentes les plus exigeantes de notre clientèle internationale et d'offrir une expérience de vol inoubliable
+               , faisant ainsi d'Omatuku Jets la référence en matière de transport aérien privé."
+              </p>
+            </div>
         </div>
-
-        <div class="col-6 col-md-12" id="forms">
-          <img src="images/formation1.png">
-      </div>
-    </div>
-  </section>
+  </div>
+</section>
   
   <!-- Page section example for content below the video header -->
   

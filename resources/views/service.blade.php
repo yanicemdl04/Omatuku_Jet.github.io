@@ -61,15 +61,14 @@
           <div class="col-md-7">
             <img src="https://irp.cdn-website.com/md/dmtmpl/f3744e48-0dcf-45c2-8f56-f828fa68d2b6/dms3rep/multi/mobile/jason-goodman-nF0nQuqBsrI-unsplash.jpg"/>
           </div>
-          <div class="col-md-5">
-            <h2 style="  margin-top: 120px;">Formation cabine crew</h2>
+          <div class="col-md-5" id="serve">
+            <h2>Formation cabine crew</h2>
             <p>
             Omatuku Jets s'engage activement auprès des anciens futurs talents de l'aviation en proposant des programmes de formation pour le personnel de cabine qui sont axés sur l'excellence et le professionnalisme. Nos formations exhaustives couvrent tous les aspects essentiels du métier, allant de la sécurité en vol, qui est primordiale, au service client haut de gamme, qui fait la réputation des compagnies aériennes. Nous disposons d'instructeurs expérimentés issus du secteur, qui apportent une richesse de connaissances et d'expertise à chaque session. Les participants à nos programmes bénéficient d'un apprentissage à la fois pratique et théorique, ce qui leur permet de développer des compétences solides et variées.             </p>
           </div>
 
-
           <div class="col-md-5">
-            <h2 style="  margin-top: 120px;">Jet privé</h2>
+            <h2>Jet privé</h2>
             <p>
             Profitez d'une expérience de vol sur mesure et inégalée avec Omatuku Jets, qui allie harmonieusement luxe, confort et confidentialité. Nos jets privés, méticuleusement entretenus et équipés des dernières technologies, sont à votre entière disposition pour des voyages exclusifs, que ce soit pour des déplacements d'affaires ou des escapades personnelles. Nous nous engageons à offrir un service impeccable, répondant aux plus hautes attentes de notre clientèle exigeante. Chaque détail est soigneusement pensé pour garantir un voyage agréable et mémorable, que ce soit à travers des aménagements somptueux, une gastronomie raffinée ou un personnel attentif et professionnel, toujours prêt à anticiper vos besoins.             </p>
           </div>
@@ -82,8 +81,8 @@
             <div class="col-md-8">
               <img src="images/airplane2.jpg"/>
             </div>
-            <div class="col-md-4" style="margin-top: 30px;">
-              <h2 style="  margin-top: 120px;">Cargo</h2>
+            <div class="col-md-4" style="margin-top: 30px;" id="serve">
+              <h2>Cargo</h2>
               <p>
               Omatuku Jets se spécialise dans l'offre de solutions de transport de marchandises à la fois sûres et extrêmement efficaces, soigneusement conçues pour répondre aux besoins spécifiques et variés de chaque client. 
               Nous comprenons que chaque expédition est unique, c'est pourquoi nos services englobent une vaste gamme de marchandises, allant des colis sensibles qui nécessiteront une manipulation 
@@ -105,7 +104,7 @@
                 <div class="col-md-5" style="margin-top: 100px;">
                     <p>We want to know your needs exactly so that we can provide the perfect solution. 
                         Let us know what you want and we’ll do our best to help.</p>
-                        <button class="custom-btn btn-2" style="width: 250px;">Book an appointment</button>
+                        <a href="{{ route('contact.store') }}"><button class="custom-btn btn-2">Contacter</button></a>
                 </div>
             </div>
         </div>

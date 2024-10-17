@@ -61,27 +61,26 @@
           <div class="col-md-7">
             <img src="../images/cargo1.png"/>
           </div>
-          <div class="col-md-5">
-            <h2 style="  margin-top: 120px;">Capacité et
-                flexibilité cargo</h2>
+          <div class="col-md-5" id="cargs">
+            <h2>Capacité et flexibilité cargo</h2>
             <p>
                 L’Airbus A340-300 est conçu pour offrir une capacité de chargement impressionnante et une
                 flexibilité remarquable pour le transport de marchandises. Cet appareil assure une gestion
                 efficace des cargaisons variées, tout en garantissant une performance optimale. Sa conception
                 robuste permet une adaptation facile à différents types de fret, répondant ainsi aux besoins
                 diversifiés du secteur cargo</p>
-                <a href="{{ route('reservation.store') }}"><button class="custom-btn btn-2">Reservation</button></a>
+                <a href="{{ route('contact.store') }}"><button class="custom-btn btn-2">Contacter</button></a>
           </div>
 
 
-          <div class="col-md-5">
-            <h2 style="  margin-top: 120px;">Puissance et Espace</h2>
+          <div class="col-md-5" id="cargs">
+            <h2>Puissance et Espace</h2>
             <p>
                 L’Airbus A340-600 se distingue par sa puissance impressionnante et son espace généreux,
                 offrant une solution idéale pour le transport de grandes quantités de marchandises. Cet appareil
                 allie une capacité de chargement exceptionnelle à une performance fiable, assurant une efficacité
                 accrue pour les opérations cargo sur de longues distances            </p>
-                <a href="{{ route('reservation.store') }}"><button class="custom-btn btn-2">Reservation</button></a>
+                <a href="{{ route('contact.store') }}"><button class="custom-btn btn-2">Contacter</button></a>
           </div>
           <div class="col-md-7">
             <img src="../images/cargo2.png"/>
@@ -92,8 +91,8 @@
             <div class="col-md-8">
               <img src="../images/cargo3.png"/>
             </div>
-            <div class="col-md-4" style="margin-top: 30px;">
-              <h2 style="  margin-top: 120px;">Excellence et
+            <div class="col-md-4" style="margin-top: 30px;" id="cargs">
+              <h2>Excellence et
                 Polyvalence</h2>
               <p>
                 Le Boeing 737 se caractérise par son excellence en matière de performance et sa polyvalence
@@ -102,7 +101,7 @@
                 solution efficace et fiable pour les besoins du transport aérien de marchandises, que ce soit pour
                 des trajets régionaux ou plus étendus.
               </p>
-              <a href="{{ route('reservation.store') }}"><button class="custom-btn btn-2">Reservation</button></a>
+              <a href="{{ route('contact.store') }}"><button class="custom-btn btn-2">Contacter</button></a>
               </div>
         </div>
       </div>
